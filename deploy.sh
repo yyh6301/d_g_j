@@ -4,7 +4,7 @@ docker container rm jenkins > /dev/null 2> /dev/null || :
 
 docker run \
   -d \
-  --restart = always \
+  --restart=always \
   --name jenkins \
   -p 8080:8080 \
   -p 50000:50000 \
