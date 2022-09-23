@@ -3,6 +3,7 @@ FROM golang:alpine as go_img
 # FROM jenkins/jenkins:lts-alpine
 FROM jenkins/jenkins:alpine
 
+#定义变量
 ARG user=jenkins
 ARG group=jenkins
 ARG uid=1000
@@ -11,7 +12,7 @@ ARG http_port=8080
 ARG agent_port=50000
 
 USER root
-
+#设置环境
 ENV JENKINS_OPTS "--prefix=/jenkins"
 
 ENV DOCKER_HOME /usr/local/docker
