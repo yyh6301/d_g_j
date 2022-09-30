@@ -1,0 +1,26 @@
+2022-09-30_12:20:59.47712 511:C 30 Sep 2022 12:20:59.477 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2022-09-30_12:20:59.47724 511:C 30 Sep 2022 12:20:59.477 # Redis version=6.2.7, bits=64, commit=e6f67092, modified=1, pid=511, just started
+2022-09-30_12:20:59.47725 511:C 30 Sep 2022 12:20:59.477 # Configuration loaded
+2022-09-30_12:20:59.47750 511:M 30 Sep 2022 12:20:59.477 * monotonic clock: POSIX clock_gettime
+2022-09-30_12:20:59.47775 511:M 30 Sep 2022 12:20:59.477 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+2022-09-30_12:20:59.47786                 _._                                                  
+2022-09-30_12:20:59.47789            _.-``__ ''-._                                             
+2022-09-30_12:20:59.47789       _.-``    `.  `_.  ''-._           Redis 6.2.7 (e6f67092/1) 64 bit
+2022-09-30_12:20:59.47790   .-`` .-```.  ```\/    _.,_ ''-._                                  
+2022-09-30_12:20:59.47790  (    '      ,       .-`  | `,    )     Running in standalone mode
+2022-09-30_12:20:59.47790  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2022-09-30_12:20:59.47790  |    `-._   `._    /     _.-'    |     PID: 511
+2022-09-30_12:20:59.47790   `-._    `-._  `-./  _.-'    _.-'                                   
+2022-09-30_12:20:59.47790  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2022-09-30_12:20:59.47791  |    `-._`-._        _.-'_.-'    |           https://redis.io       
+2022-09-30_12:20:59.47791   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2022-09-30_12:20:59.47791  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2022-09-30_12:20:59.47791  |    `-._`-._        _.-'_.-'    |                                  
+2022-09-30_12:20:59.47791   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2022-09-30_12:20:59.47791       `-._    `-.__.-'    _.-'                                       
+2022-09-30_12:20:59.47791           `-._        _.-'                                           
+2022-09-30_12:20:59.47792               `-.__.-'                                               
+2022-09-30_12:20:59.47792 
+2022-09-30_12:20:59.47792 511:M 30 Sep 2022 12:20:59.477 # Server initialized
+2022-09-30_12:20:59.47792 511:M 30 Sep 2022 12:20:59.477 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2022-09-30_12:20:59.47821 511:M 30 Sep 2022 12:20:59.478 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket

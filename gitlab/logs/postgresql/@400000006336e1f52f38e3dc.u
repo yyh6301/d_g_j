@@ -1,0 +1,33 @@
+2022-09-30_12:21:11.59335 LOG:  starting PostgreSQL 13.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2022-09-30_12:21:11.59577 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2022-09-30_12:21:11.60457 LOG:  database system was shut down at 2022-09-30 12:21:09 GMT
+2022-09-30_12:21:11.61220 LOG:  database system is ready to accept connections
+2022-09-30_12:21:14.09261 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-09-30_12:21:14.09275 FATAL:  Peer authentication failed for user "gitlab"
+2022-09-30_12:21:14.09277 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-09-30_12:21:14.19036 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-09-30_12:21:14.19042 FATAL:  Peer authentication failed for user "gitlab"
+2022-09-30_12:21:14.19043 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-09-30_12:21:14.27472 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-09-30_12:21:14.27478 FATAL:  Peer authentication failed for user "gitlab"
+2022-09-30_12:21:14.27479 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-09-30_12:21:14.63384 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-09-30_12:21:14.63390 FATAL:  Peer authentication failed for user "gitlab"
+2022-09-30_12:21:14.63390 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-09-30_12:21:14.78236 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-09-30_12:21:14.78241 FATAL:  Peer authentication failed for user "gitlab"
+2022-09-30_12:21:14.78242 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-09-30_12:21:36.25212 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-09-30_12:21:36.25220 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'audit_events')) LIMIT 1
+2022-09-30_12:21:36.25564 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-09-30_12:21:36.25568 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'web_hook_logs')) LIMIT 1
+2022-09-30_12:21:36.25926 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-09-30_12:21:36.25930 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'loose_foreign_keys_deleted_records')) LIMIT 1
+2022-09-30_12:21:36.26261 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-09-30_12:21:36.26266 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'batched_background_migration_job_transition_logs')) LIMIT 1
+2022-09-30_12:21:36.26573 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-09-30_12:21:36.26580 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'incident_management_pending_alert_escalations')) LIMIT 1
+2022-09-30_12:21:36.26945 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-09-30_12:21:36.26950 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'incident_management_pending_issue_escalations')) LIMIT 1
+2022-09-30_12:21:36.27239 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-09-30_12:21:36.27248 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'verification_codes')) LIMIT 1

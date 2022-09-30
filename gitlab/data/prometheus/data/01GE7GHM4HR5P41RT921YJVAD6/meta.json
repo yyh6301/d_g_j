@@ -1,0 +1,17 @@
+{
+	"ulid": "01GE7GHM4HR5P41RT921YJVAD6",
+	"minTime": 1664541263034,
+	"maxTime": 1664546400000,
+	"stats": {
+		"numSamples": 8109138,
+		"numSeries": 25457,
+		"numChunks": 49608
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01GE7GHM4HR5P41RT921YJVAD6"
+		]
+	},
+	"version": 1
+}

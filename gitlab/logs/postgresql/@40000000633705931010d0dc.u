@@ -1,0 +1,84 @@
+2022-09-30_12:32:43.81580 LOG:  starting PostgreSQL 13.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2022-09-30_12:32:43.81819 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2022-09-30_12:32:43.82506 LOG:  database system was interrupted; last known up at 2022-09-30 12:21:14 GMT
+2022-09-30_12:32:45.16972 LOG:  database system was not properly shut down; automatic recovery in progress
+2022-09-30_12:32:45.17376 LOG:  redo starts at 0/154F9B0
+2022-09-30_12:32:46.36680 LOG:  invalid record length at 0/5B078C8: wanted 24, got 0
+2022-09-30_12:32:46.36684 LOG:  redo done at 0/5B07888
+2022-09-30_12:32:47.57907 FATAL:  the database system is starting up
+2022-09-30_12:32:48.39733 LOG:  database system is ready to accept connections
+2022-09-30_12:32:52.60053 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-09-30_12:32:52.60057 FATAL:  Peer authentication failed for user "gitlab"
+2022-09-30_12:32:52.60058 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-09-30_12:32:52.65439 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-09-30_12:32:52.65447 FATAL:  Peer authentication failed for user "gitlab"
+2022-09-30_12:32:52.65448 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-09-30_12:32:52.70417 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-09-30_12:32:52.70431 FATAL:  Peer authentication failed for user "gitlab"
+2022-09-30_12:32:52.70432 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-09-30_13:45:26.32282 LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-09-30_13:45:28.96497 STATEMENT:  SELECT * FROM pg_stat_database_conflicts;
+2022-09-30_13:45:28.96734 LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-09-30_13:45:28.96735 STATEMENT:  with table_opts_vs_statistic as (
+2022-09-30_13:45:28.96735 	  select
+2022-09-30_13:45:28.96736 	    pg_class.oid,
+2022-09-30_13:45:28.96736 	    pg_class.relname,
+2022-09-30_13:45:28.96736 	    coalesce(nspname, 'public') as schemaname,
+2022-09-30_13:45:28.96736 	    pg_class.relpages,
+2022-09-30_13:45:28.96737 	    pg_class.reltuples,
+2022-09-30_13:45:28.96737 	    case
+2022-09-30_13:45:28.96737 	      when array_to_string(reloptions, '') like '%autovacuum_vacuum_threshold%' then regexp_replace(array_to_string(reloptions, ''), '.*autovacuum_vacuum_threshold=([0-9.]+).*', E'\\1')::int8
+2022-09-30_13:45:28.96738 	      else current_setting('autovacuum_vacuum_threshold')::int8
+2022-09-30_13:45:28.96738 	    end as autovacuum_vacuum_threshold,
+2022-09-30_13:45:28.96738 	    case
+2022-09-30_13:45:28.96738 	      when array_to_string(reloptions, '') like '%autovacuum_vacuum_scale_factor%' then regexp_replace(array_to_string(reloptions, ''), '.*autovacuum_vacuum_scale_factor=([0-9.]+).*', E'\\1')::numeric
+2022-09-30_13:45:28.96739 	      else current_setting('autovacuum_vacuum_scale_factor')::numeric
+2022-09-30_13:45:28.96743 	    end as autovacuum_vacuum_scale_factor,
+2022-09-30_13:45:28.96744 	    case when array_to_string(reloptions, '') ~ 'autovacuum_enabled=(false|off)' then false else true end as autovacuum_enabled,
+2022-09-30_13:45:28.96745 	    n_dead_tup,
+2022-09-30_13:45:28.96745 	    last_autovacuum,
+2022-09-30_13:45:28.96745 	    last_vacuum
+2022-09-30_13:45:28.96745 	  from pg_class
+2022-09-30_13:45:28.96745 	  join pg_namespace ns on relnamespace = ns.oid 
+2022-09-30_13:45:28.96746 	  join pg_stat_all_tables psat  on psat.relid  = pg_class.oid
+2022-09-30_13:45:28.96746 	  where relkind in ('r','m') 
+2022-09-30_13:45:28.96746 	), p as (
+2022-09-30_13:45:28.96746 	  select pgspv.*,a.query,a.wait_event_type,a.wait_event,a.query_start
+2022-09-30_13:45:28.96747 	  from pg_stat_progress_vacuum pgspv
+2022-09-30_13:45:28.96747 	  left join pg_stat_activity a using (pid)
+2022-09-30_13:45:28.96752 	) 
+2022-09-30_13:45:28.96753 	select
+2022-09-30_13:45:28.96753 	  table_opts_vs_statistic.schemaname as schemaname,
+2022-09-30_13:45:28.96754 	  table_opts_vs_statistic.relname as relname,
+2022-09-30_13:45:28.96754 	  round((100 * table_opts_vs_statistic.n_dead_tup::numeric / nullif(table_opts_vs_statistic.reltuples, 0))::numeric, 2) as dead_tup_pct,
+2022-09-30_13:45:28.96754 	  table_opts_vs_statistic.reltuples::numeric as reltuples,
+2022-09-30_13:45:28.96754 	  table_opts_vs_statistic.n_dead_tup,
+2022-09-30_13:45:28.96755 	  (relpages::bigint*8*1024) AS table_size_bytes,
+2022-09-30_13:45:28.96755 	  'V. Threshold:' || table_opts_vs_statistic.autovacuum_vacuum_threshold
+2022-09-30_13:45:28.96756 	    || ', V. Scale Factor: ' || (table_opts_vs_statistic.autovacuum_vacuum_scale_factor)::numeric *100 ||' %'
+2022-09-30_13:45:28.96756 	    || case when not autovacuum_enabled then ', DISABLED' else ', enabled' end as "effective_settings",
+2022-09-30_13:45:28.96756 	  case
+2022-09-30_13:45:28.96756 	    when last_autovacuum > coalesce(last_vacuum, '0001-01-01') then last_autovacuum::timestamp(0)
+2022-09-30_13:45:28.96764 	    when last_vacuum is not null then last_vacuum::timestamp(0)
+2022-09-30_13:45:28.96765 	    else null
+2022-09-30_13:45:28.96766 	  end as "last_vacuumed",
+2022-09-30_13:45:28.96766 	  case
+2022-09-30_13:45:28.96766 	    when last_autovacuum > coalesce(last_vacuum, '0001-01-01') then 'auto'
+2022-09-30_13:45:28.96766 	    when last_vacuum is not null then 'manual'
+2022-09-30_13:45:28.96767 	    else null
+2022-09-30_13:45:28.96767 	  end as "type",
+2022-09-30_13:45:28.96767 	  coalesce(p.phase, 'in queue') as status,
+2022-09-30_13:45:28.96767 	  p.pid as pid,
+2022-09-30_13:45:28.96768 	  coalesce  (p.query,'')as  action,
+2022-09-30_13:45:28.96768 	  case when p.pid is null then null else coalesce(wait_event_type ||'.'|| wait_event, 'f') end as waiting,
+2022-09-30_13:45:28.96768 	  round(100.0 * p.heap_blks_scanned / nullif(p.heap_blks_total, 0), 1) AS scanned_pct,
+2022-09-30_13:45:28.96768 	  round(100.0 * p.heap_blks_vacuumed / nullif(p.heap_blks_total, 0), 1) AS vacuumed_pct,
+2022-09-30_13:45:28.96769 	  extract ('epoch' from  now()-query_start) elapsed_time
+2022-09-30_13:45:28.96770 	from 
+2022-09-30_13:45:28.96770 	table_opts_vs_statistic
+2022-09-30_13:45:28.96770 	full outer join p on p.relid = table_opts_vs_statistic.oid and p.datname = current_database()
+2022-09-30_13:45:28.96770 	where
+2022-09-30_13:45:28.96774 	  table_opts_vs_statistic.relpages >= 8
+2022-09-30_13:45:28.96774 	  and  autovacuum_vacuum_threshold + (autovacuum_vacuum_scale_factor::numeric * table_opts_vs_statistic.reltuples) < table_opts_vs_statistic.n_dead_tup
+2022-09-30_13:45:28.96775 	
+2022-09-30_14:04:20.63489 LOG:  stats_timestamp 2022-09-30 14:04:20.679484+00 is later than collector's time 2022-09-30 14:04:20.633554+00 for database 16386

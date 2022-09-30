@@ -1,0 +1,3 @@
+=== puma startup: 2022-09-30 12:34:36 +0000 ===
+source=rack-timeout id=f0cf2e3e-247f-41a0-a806-8e66fb3016bb timeout=60000ms service=71632ms state=timed_out at=error
+=== puma startup: 2022-09-30 15:05:41 +0000 ===

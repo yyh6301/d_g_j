@@ -1,0 +1,2 @@
+# Logfile created on 2022-09-30 15:15:56 +0000 by logger.rb/v1.4.2
+{"severity":"INFO","time":"2022-09-30T15:15:56.250Z","correlation_id":"01GE7FFTZ59TJKXCTY4HFNYC8N","author_id":1,"author_name":"Administrator","entity_id":1,"entity_type":"User","created_at":"2022-09-30T15:15:56.249+00:00","with":"standard","target_id":1,"target_type":"User","target_details":"Administrator"}
