@@ -3124,5 +3124,10 @@
 # spamcheck['classifier']['log_directory'] = "/var/log/gitlab/spam-classifier"
 
 
-gitlab_rails['webhook_timeout'] = 90 
-gitlab_rails['git_timeout']=90
+
+#增加gitlab响应时间
+gitlab_rails['webhook_timeout'] = 180 
+gitlab_rails['git_timeout']=180
+
+#修改gitlab ssh的端口
+gitlab_rails['gitlab_shell_ssh_port'] = 19080

@@ -92,7 +92,7 @@ production: &base
 
     ## Webhook settings
     # Number of seconds to wait for HTTP response after sending webhook HTTP POST request (default: 10)
-    webhook_timeout: 
+    webhook_timeout: 90
 
     ### GraphQL Settings
     # Tells the rails application how long it has to complete a GraphQL request.

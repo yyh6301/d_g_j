@@ -516,3 +516,157 @@
 {"severity":"ERROR","time":"2022-09-30T15:32:31.007Z","correlation_id":"a3c7d27bc0750a06b0d3618be4e202fb","message":"Cannot obtain an exclusive lease for namespace:namespaces_root_statistics:1. There must be another instance already in execution."}
 {"severity":"INFO","time":"2022-09-30T15:41:41.457Z","correlation_id":"01GE7GZ030T4BQKWQV86PCZEPX","message":"Removing key (key-1)"}
 {"severity":"INFO","time":"2022-09-30T15:41:52.777Z","correlation_id":"01GE7GZB6CKMMM9DMYG68TD9K1","message":"Adding key (key-2): ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDTcra/Fg3MVGQTEfZb6sSjXju9hJNrQ9BFedj1MBIE56dLGU6iMvgdp//QQ+nL6nMz4DN2QI3MQ0jglrk3IqQafUYKE4t4X4hgNe3PT5YLjRnRsFU0X4iw1ThiT8qqruf++4mfDFhtuRrMi3Tddgi8ZwUtPc3fpCMRJEimEgYF/UlabEfGsVpAMqjv55K5IVHghfI1DzvmZ5BmPXoqBQEhShm5A8jVsqTBbYbFXKKVSlqcrB/EWGXacQS/R0BMC04u6qmaGT/rE3GvuWc6O5eCxdHh4qPjZ5k7wDzTXhaCMN5hOq4H77qYGjvaEniVNKND83LbRWk/Hpmx/wFJ15HwwAJapzKbfPcvu8BITj0mwb+iz9aYWNq6AyVugMm+bjHPAWe/LGWKjpU4+MpHAmNH8ZHPsfry3DV/neJ+g5Qjq6n/BuV4naf6e6/xwO+Loiv0ZlVsDOECh2DcyPfG3FN5lHqBETjOUiJYTi+hGvpn3pCvgTyzbzm3UlXpGMMZwYM="}
+{"severity":"INFO","time":"2022-09-30T15:50:01.421Z","correlation_id":"01GE7HE88EWEHBPE3K436N3X8K","message":"Successful Login: username=root ip=172.17.0.1 method=standard admin=true"}
+{"severity":"INFO","time":"2022-09-30T15:51:31.336Z","correlation_id":"01GE7HH03GWBP1N376FZT6MWS0","message":"Adding key (key-3): ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDoJrVLeC2RVfbyi7eP0e9iH2ebY6mJS6TS+ZIzpoXvjKpj5tS36/l5hAxS6SzmE0C5+hfkrT9HEkLdaxp7ljsK29VhbkmI8q7Yp/3wQGWPfq2Y8ivBhT1t8QYhXsaqTnaTUQywur1j+10np/CtWJVdgOMreKvBraKCy245v3WpDAm9npVQNSOj80lZkdfQq8WOu2T4eGelTT52YpIwALCyrraK6v9V7HTwDvtE+UDxtMa+PX1Dq0Vd48oHuUrRZfpzJbI/6mAFONeLmJE2ZdeB3mmncXam/In2E7iiekVihVgmP/YbJlhNOTett+qmQ8CWMI6h40Y7+rSSVzTGZjgShMB9F5tNxqs+M9VD4CcW4IRD00+UrUueFj1n3tP42HGkQeJVznaa29QhKrPVnHJgC24ow/gDn44tTtCBIKu4LjtsYzBDX5WxboLbRRTZ1J8HJolqRXGLkz9QPKVO9zWGkzdpAqb8yWhvXeCXJoqJRdu61q2/OsiOUkOMRnKjoVwJ1Jf0QEDzPQ1/TFx8AxZ7pyOSOf1QmsSHNQYaSftf+ek9/BBW+k7n+TcyTbQG01jO9GVGcu7cZBSZipXXVv+F8657v+B7UkMpLJ7SHw0hABrgXMOtwB/KIXZ9zWDaeeR+T0hj746ueNzNgOuQFXY4iMKNjhRUBpbVxOd+nZi+Kw=="}
+{"severity":"DEBUG","time":"2022-09-30T15:59:43.054Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2022-09-30T15:59:44.657Z","correlation_id":null,"message":"Syncing dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2022-09-30T15:59:44.658Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-09-30T15:59:44.746Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"audit_events","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-09-30T15:59:44.797Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-09-30T15:59:44.803Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"web_hook_logs","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-09-30T15:59:44.847Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-09-30T15:59:44.853Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"loose_foreign_keys_deleted_records","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-09-30T15:59:44.922Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-09-30T15:59:44.927Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"batched_background_migration_job_transition_logs","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-09-30T15:59:44.973Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-09-30T15:59:44.978Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"incident_management_pending_alert_escalations","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-09-30T15:59:45.021Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-09-30T15:59:45.026Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"incident_management_pending_issue_escalations","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-09-30T15:59:45.069Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-09-30T15:59:45.074Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"security_findings","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-09-30T15:59:45.132Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-09-30T15:59:45.137Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"verification_codes","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-09-30T15:59:45.180Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-09-30T15:59:45.181Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-09-30T15:59:45.181Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-09-30T15:59:45.182Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-09-30T15:59:45.183Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-09-30T15:59:45.184Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-09-30T15:59:45.184Z","correlation_id":null,"message":"Finished sync of dynamic postgres partitions"}
+{"severity":"INFO","time":"2022-09-30T16:00:08.387Z","correlation_id":null,"message":"Adding key (key-2): ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDTcra/Fg3MVGQTEfZb6sSjXju9hJNrQ9BFedj1MBIE56dLGU6iMvgdp//QQ+nL6nMz4DN2QI3MQ0jglrk3IqQafUYKE4t4X4hgNe3PT5YLjRnRsFU0X4iw1ThiT8qqruf++4mfDFhtuRrMi3Tddgi8ZwUtPc3fpCMRJEimEgYF/UlabEfGsVpAMqjv55K5IVHghfI1DzvmZ5BmPXoqBQEhShm5A8jVsqTBbYbFXKKVSlqcrB/EWGXacQS/R0BMC04u6qmaGT/rE3GvuWc6O5eCxdHh4qPjZ5k7wDzTXhaCMN5hOq4H77qYGjvaEniVNKND83LbRWk/Hpmx/wFJ15HwwAJapzKbfPcvu8BITj0mwb+iz9aYWNq6AyVugMm+bjHPAWe/LGWKjpU4+MpHAmNH8ZHPsfry3DV/neJ+g5Qjq6n/BuV4naf6e6/xwO+Loiv0ZlVsDOECh2DcyPfG3FN5lHqBETjOUiJYTi+hGvpn3pCvgTyzbzm3UlXpGMMZwYM="}
+{"severity":"INFO","time":"2022-09-30T16:00:08.388Z","correlation_id":null,"message":"Adding key (key-3): ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDoJrVLeC2RVfbyi7eP0e9iH2ebY6mJS6TS+ZIzpoXvjKpj5tS36/l5hAxS6SzmE0C5+hfkrT9HEkLdaxp7ljsK29VhbkmI8q7Yp/3wQGWPfq2Y8ivBhT1t8QYhXsaqTnaTUQywur1j+10np/CtWJVdgOMreKvBraKCy245v3WpDAm9npVQNSOj80lZkdfQq8WOu2T4eGelTT52YpIwALCyrraK6v9V7HTwDvtE+UDxtMa+PX1Dq0Vd48oHuUrRZfpzJbI/6mAFONeLmJE2ZdeB3mmncXam/In2E7iiekVihVgmP/YbJlhNOTett+qmQ8CWMI6h40Y7+rSSVzTGZjgShMB9F5tNxqs+M9VD4CcW4IRD00+UrUueFj1n3tP42HGkQeJVznaa29QhKrPVnHJgC24ow/gDn44tTtCBIKu4LjtsYzBDX5WxboLbRRTZ1J8HJolqRXGLkz9QPKVO9zWGkzdpAqb8yWhvXeCXJoqJRdu61q2/OsiOUkOMRnKjoVwJ1Jf0QEDzPQ1/TFx8AxZ7pyOSOf1QmsSHNQYaSftf+ek9/BBW+k7n+TcyTbQG01jO9GVGcu7cZBSZipXXVv+F8657v+B7UkMpLJ7SHw0hABrgXMOtwB/KIXZ9zWDaeeR+T0hj746ueNzNgOuQFXY4iMKNjhRUBpbVxOd+nZi+Kw=="}
+{"severity":"INFO","time":"2022-09-30T16:00:17.843Z","correlation_id":"844b918783c1bc700b08b9f3d14de272","message":"Ci::StuckBuilds::DropPendingService: Cleaning pending timed-out builds"}
+{"severity":"INFO","time":"2022-09-30T16:20:21.206Z","correlation_id":"4300c8a1f25243dfe5637c094765a1c2","message":"Ci::StuckBuilds::DropRunningService: Cleaning running, timed-out builds"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:46.686Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2022-10-01T14:36:48.796Z","correlation_id":null,"message":"Syncing dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:48.800Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:48.830Z","correlation_id":null,"message":"Syncing dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:48.832Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:48.876Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"audit_events","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:48.914Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"audit_events","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:48.922Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:48.932Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"web_hook_logs","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:48.981Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Lock timeout is set","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2022-10-01T14:36:49.021Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Lock timeout is set","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2022-10-01T14:36:49.035Z","correlation_id":null,"message":"Created partition","partition_name":"audit_events_202304","table_name":"audit_events"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.036Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Migration finished","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.041Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.041Z","correlation_id":null,"message":"Created partition","partition_name":"web_hook_logs_202304","table_name":"web_hook_logs"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.042Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Migration finished","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2022-10-01T14:36:49.049Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Lock timeout is set","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2022-10-01T14:36:49.050Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"web_hook_logs","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.052Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.061Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"loose_foreign_keys_deleted_records","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.166Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.174Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"batched_background_migration_job_transition_logs","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.175Z","correlation_id":null,"message":"Detached Partition","partition_name":"web_hook_logs_202206","table_name":"web_hook_logs","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.176Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Migration finished","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.179Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.186Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"loose_foreign_keys_deleted_records","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.237Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Lock timeout is set","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2022-10-01T14:36:49.256Z","correlation_id":null,"message":"Created partition","partition_name":"batched_background_migration_job_transition_logs_202304","table_name":"batched_background_migration_job_transition_logs"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.257Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Migration finished","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2022-10-01T14:36:49.261Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Lock timeout is set","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.270Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.276Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"batched_background_migration_job_transition_logs","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.277Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.284Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"incident_management_pending_alert_escalations","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.298Z","correlation_id":null,"message":"Detached Partition","partition_name":"batched_background_migration_job_transition_logs_202203","table_name":"batched_background_migration_job_transition_logs","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.300Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Migration finished","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.306Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.316Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"incident_management_pending_alert_escalations","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.319Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.330Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"incident_management_pending_issue_escalations","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.362Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Lock timeout is set","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2022-10-01T14:36:49.369Z","correlation_id":null,"message":"Syncing dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.371Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.384Z","correlation_id":null,"message":"Created partition","partition_name":"incident_management_pending_alert_escalations_202304","table_name":"incident_management_pending_alert_escalations"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.385Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Migration finished","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.390Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.398Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"incident_management_pending_issue_escalations","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.399Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.406Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"security_findings","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.410Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Lock timeout is set","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2022-10-01T14:36:49.418Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"audit_events","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.433Z","correlation_id":null,"message":"Created partition","partition_name":"incident_management_pending_issue_escalations_202304","table_name":"incident_management_pending_issue_escalations"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.434Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Migration finished","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.441Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.452Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"security_findings","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.456Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.467Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"verification_codes","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.520Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.524Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.529Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"verification_codes","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.532Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.533Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.533Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.534Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"web_hook_logs","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.535Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.553Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Lock timeout is set","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2022-10-01T14:36:49.569Z","correlation_id":null,"message":"Created partition","partition_name":"verification_codes_202304","table_name":"verification_codes"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.570Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionManager","message":"Migration finished","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.576Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.578Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.579Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.582Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.583Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.584Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.585Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.586Z","correlation_id":null,"message":"Finished sync of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.586Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.587Z","correlation_id":null,"message":"Finished sync of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.607Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.615Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"loose_foreign_keys_deleted_records","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.717Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.724Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"batched_background_migration_job_transition_logs","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.792Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.801Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"incident_management_pending_alert_escalations","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.867Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.875Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"incident_management_pending_issue_escalations","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:49.959Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:49.966Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"security_findings","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:50.065Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:50.072Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"verification_codes","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:50.139Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:50.140Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:50.142Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:50.142Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:50.143Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:36:50.144Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:36:50.145Z","correlation_id":null,"message":"Finished sync of dynamic postgres partitions"}
+{"severity":"INFO","time":"2022-10-01T14:37:19.404Z","correlation_id":null,"message":"Application boot finished","runtime":"sidekiq","duration_s":72.079317464}
+{"severity":"DEBUG","time":"2022-10-01T14:37:19.595Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2022-10-01T14:37:21.423Z","correlation_id":null,"message":"Syncing dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2022-10-01T14:37:21.424Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:37:21.451Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"audit_events","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:37:21.509Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:37:21.515Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"web_hook_logs","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:37:21.561Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:37:21.567Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"loose_foreign_keys_deleted_records","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:37:21.641Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:37:21.646Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"batched_background_migration_job_transition_logs","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:37:21.694Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:37:21.701Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"incident_management_pending_alert_escalations","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:37:21.757Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:37:21.764Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"incident_management_pending_issue_escalations","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:37:21.822Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:37:21.830Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"security_findings","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:37:21.910Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:37:21.916Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions","table_name":"verification_codes","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:37:21.974Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:37:21.975Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:37:21.976Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:37:21.976Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:37:21.977Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"DEBUG","time":"2022-10-01T14:37:21.978Z","correlation_id":null,"message":"Switched database connection","connection_name":"main"}
+{"severity":"INFO","time":"2022-10-01T14:37:21.978Z","correlation_id":null,"message":"Finished sync of dynamic postgres partitions"}

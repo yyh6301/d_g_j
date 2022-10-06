@@ -1,8 +1,13 @@
-2022-09-30_15:04:41.38768 LOG:  starting PostgreSQL 13.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
-2022-09-30_15:04:41.39228 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
-2022-09-30_15:04:41.40415 LOG:  database system was interrupted; last known up at 2022-09-30 14:38:50 GMT
-2022-09-30_15:04:43.64873 LOG:  database system was not properly shut down; automatic recovery in progress
-2022-09-30_15:04:43.65287 LOG:  redo starts at 0/5BB5F68
-2022-09-30_15:04:43.65406 LOG:  invalid record length at 0/5BB7A08: wanted 24, got 0
-2022-09-30_15:04:43.65412 LOG:  redo done at 0/5BB79E0
-2022-09-30_15:04:43.67095 LOG:  database system is ready to accept connections
+2022-10-01_14:36:02.33725 LOG:  starting PostgreSQL 13.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2022-10-01_14:36:02.34456 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2022-10-01_14:36:02.38121 LOG:  database system was interrupted; last known up at 2022-09-30 16:29:44 GMT
+2022-10-01_14:36:06.57453 LOG:  database system was not properly shut down; automatic recovery in progress
+2022-10-01_14:36:06.58995 LOG:  invalid record length at 0/5C09288: wanted 24, got 0
+2022-10-01_14:36:06.59010 LOG:  redo is not required
+2022-10-01_14:36:06.63246 LOG:  database system is ready to accept connections
+2022-10-01_14:37:34.49639 received TERM from runit, sending INT instead to force quit connections
+2022-10-01_14:37:34.49779 LOG:  received fast shutdown request
+2022-10-01_14:37:34.50973 LOG:  aborting any active transactions
+2022-10-01_14:37:34.51062 LOG:  background worker "logical replication launcher" (PID 386) exited with exit code 1
+2022-10-01_14:37:34.51071 LOG:  shutting down
+2022-10-01_14:37:34.54243 LOG:  database system is shut down

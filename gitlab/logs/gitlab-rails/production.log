@@ -3982,3 +3982,1405 @@ Completed 200 OK in 55ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.
 Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:44:08 +0000
 Processing by MetricsController#index as HTML
 Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:44:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:44:37 +0000
+Processing by HelpController#index as */*
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:44:38 +0000
+Processing by MetricsController#index as HTML
+  Rendered layout layouts/help.html.haml (Duration: 121.5ms | Allocations: 84767)
+Completed 200 OK in 128ms (Views: 120.5ms | ActiveRecord: 1.7ms | Elasticsearch: 0.0ms | Allocations: 86628)
+Completed 200 OK in 64ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:44:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:45:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:45:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:45:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:45:38 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 76.6ms | Allocations: 85213)
+Completed 200 OK in 81ms (Views: 75.6ms | ActiveRecord: 1.6ms | Elasticsearch: 0.0ms | Allocations: 87073)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:45:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:46:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:46:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 94ms (Views: 1.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:46:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 91ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1488)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:46:38 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 91.3ms | Allocations: 84468)
+Completed 200 OK in 96ms (Views: 90.8ms | ActiveRecord: 1.4ms | Elasticsearch: 0.0ms | Allocations: 86329)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:46:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:47:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:47:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:47:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 85ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1488)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:47:38 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 153.2ms | Allocations: 84631)
+Completed 200 OK in 159ms (Views: 151.7ms | ActiveRecord: 2.2ms | Elasticsearch: 0.0ms | Allocations: 86491)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:47:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:48:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 53ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:48:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:48:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:48:39 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 73.3ms | Allocations: 84299)
+Completed 200 OK in 78ms (Views: 72.5ms | ActiveRecord: 1.4ms | Elasticsearch: 0.0ms | Allocations: 86159)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:48:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:49:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/root/test/activity" for 172.17.0.1 at 2022-09-30 15:49:20 +0000
+Processing by ProjectsController#activity as HTML
+  Parameters: {"namespace_id"=>"root", "id"=>"test"}
+  Rendered layout layouts/project.html.haml (Duration: 206.4ms | Allocations: 123140)
+Completed 200 OK in 241ms (Views: 201.3ms | ActiveRecord: 7.1ms | Elasticsearch: 0.0ms | Allocations: 136055)
+Started GET "/root/test/activity?limit=20&offset=0" for 172.17.0.1 at 2022-09-30 15:49:20 +0000
+Processing by ProjectsController#activity as JSON
+  Parameters: {"limit"=>"20", "offset"=>"0", "namespace_id"=>"root", "id"=>"test"}
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:49:20 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 2054)
+Completed 200 OK in 122ms (Views: 0.5ms | ActiveRecord: 11.4ms | Elasticsearch: 0.0ms | Allocations: 48100)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:49:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 54ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/" for 172.17.0.1 at 2022-09-30 15:49:24 +0000
+Processing by RootController#index as HTML
+Redirected to http://localhost:19080/users/sign_in
+Filter chain halted as :redirect_unlogged_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 4740)
+Started GET "/users/sign_in" for 172.17.0.1 at 2022-09-30 15:49:24 +0000
+Processing by SessionsController#new as HTML
+  Rendered layout layouts/devise.html.haml (Duration: 36.7ms | Allocations: 9809)
+Completed 200 OK in 71ms (Views: 37.7ms | ActiveRecord: 1.2ms | Elasticsearch: 0.0ms | Allocations: 16847)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:49:24 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 9ms (Views: 2.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1853)
+Started GET "/explore" for 172.17.0.1 at 2022-09-30 15:49:27 +0000
+Processing by Explore::ProjectsController#index as HTML
+  Rendered layout layouts/explore.html.haml (Duration: 81.1ms | Allocations: 60941)
+Completed 200 OK in 122ms (Views: 81.7ms | ActiveRecord: 7.4ms | Elasticsearch: 0.0ms | Allocations: 74969)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:49:28 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 7ms (Views: 1.8ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 2055)
+Started GET "/users/sign_in?redirect_to_referer=yes" for 172.17.0.1 at 2022-09-30 15:49:30 +0000
+Processing by SessionsController#new as HTML
+  Parameters: {"redirect_to_referer"=>"yes"}
+  Rendered layout layouts/devise.html.haml (Duration: 28.6ms | Allocations: 8823)
+Completed 200 OK in 51ms (Views: 28.8ms | ActiveRecord: 1.5ms | Elasticsearch: 0.0ms | Allocations: 13982)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:49:30 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1845)
+Started GET "/root" for 172.17.0.1 at 2022-09-30 15:49:36 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"username"=>"root"}
+  Rendered layout layouts/application.html.haml (Duration: 65.7ms | Allocations: 31435)
+Completed 200 OK in 77ms (Views: 58.8ms | ActiveRecord: 7.6ms | Elasticsearch: 0.0ms | Allocations: 36439)
+Started GET "/users/root/activity?limit=10" for 172.17.0.1 at 2022-09-30 15:49:36 +0000
+Started GET "/users/root/projects?limit=10&skip_pagination=true&skip_namespace=true&compact_mode=true" for 172.17.0.1 at 2022-09-30 15:49:36 +0000
+Started GET "/users/root/calendar.json" for 172.17.0.1 at 2022-09-30 15:49:36 +0000
+Processing by UsersController#activity as JSON
+Processing by UsersController#projects as JSON
+  Parameters: {"limit"=>"10", "username"=>"root"}
+  Parameters: {"limit"=>"10", "skip_pagination"=>"true", "skip_namespace"=>"true", "compact_mode"=>"true", "username"=>"root"}
+Processing by UsersController#calendar as JSON
+  Parameters: {"username"=>"root"}
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:49:36 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 7ms (Views: 2.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1874)
+Completed 200 OK in 53ms (Views: 0.4ms | ActiveRecord: 10.7ms | Elasticsearch: 0.0ms | Allocations: 9240)
+Completed 200 OK in 74ms (Views: 0.3ms | ActiveRecord: 10.1ms | Elasticsearch: 0.0ms | Allocations: 24043)
+Completed 200 OK in 86ms (Views: 0.6ms | ActiveRecord: 11.4ms | Elasticsearch: 0.0ms | Allocations: 16701)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:49:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 59ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:49:39 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 77.2ms | Allocations: 85103)
+Completed 200 OK in 81ms (Views: 76.6ms | ActiveRecord: 1.2ms | Elasticsearch: 0.0ms | Allocations: 86762)
+Started GET "/explore" for 172.17.0.1 at 2022-09-30 15:49:40 +0000
+Processing by Explore::ProjectsController#index as HTML
+  Rendered layout layouts/explore.html.haml (Duration: 85.9ms | Allocations: 30326)
+Completed 200 OK in 131ms (Views: 85.2ms | ActiveRecord: 6.9ms | Elasticsearch: 0.0ms | Allocations: 39954)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:49:40 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 2082)
+Started GET "/root/test" for 172.17.0.1 at 2022-09-30 15:49:41 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"root", "id"=>"test"}
+  Rendered layout layouts/project.html.haml (Duration: 928.3ms | Allocations: 656373)
+Completed 200 OK in 967ms (Views: 903.0ms | ActiveRecord: 30.1ms | Elasticsearch: 0.0ms | Allocations: 672614)
+Started GET "/root/test/-/refs/main/logs_tree/?format=json&offset=0" for 172.17.0.1 at 2022-09-30 15:49:42 +0000
+Started GET "/root/test/-/blob/main/README.md?format=json&viewer=rich" for 172.17.0.1 at 2022-09-30 15:49:42 +0000
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"root", "project_id"=>"test", "id"=>"main/README.md"}
+Processing by Projects::RefsController#logs_tree as JSON
+  Parameters: {"offset"=>"0", "namespace_id"=>"root", "project_id"=>"test", "id"=>"main"}
+Completed 200 OK in 58ms (Views: 0.2ms | ActiveRecord: 5.8ms | Elasticsearch: 0.0ms | Allocations: 14345)
+Completed 200 OK in 98ms (Views: 1.4ms | ActiveRecord: 3.7ms | Elasticsearch: 0.0ms | Allocations: 18069)
+Started POST "/api/graphql" for 172.17.0.1 at 2022-09-30 15:49:42 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Processing by GraphqlController#execute as */*
+  Parameters: {"operationName"=>"pathLastCommit", "variables"=>"[FILTERED]", "query"=>"query pathLastCommit($projectPath: ID!, $path: String, $ref: String!) {\n  project(fullPath: $projectPath) {\n    __typename\n    id\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref) {\n        __typename\n        nodes {\n          __typename\n          lastCommit {\n            __typename\n            id\n            sha\n            title\n            titleHtml\n            descriptionHtml\n            message\n            webPath\n            authoredDate\n            authorName\n            authorGravatar\n            author {\n              __typename\n              id\n              name\n              avatarUrl\n              webPath\n            }\n            signatureHtml\n            pipelines(ref: $ref, first: 1) {\n              __typename\n              edges {\n                __typename\n                node {\n                  __typename\n                  id\n                  detailedStatus {\n                    __typename\n                    id\n                    detailsPath\n                    icon\n                    tooltip\n                    text\n                    group\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n", "graphql"=>{"operationName"=>"pathLastCommit", "variables"=>"[FILTERED]", "query"=>"query pathLastCommit($projectPath: ID!, $path: String, $ref: String!) {\n  project(fullPath: $projectPath) {\n    __typename\n    id\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref) {\n        __typename\n        nodes {\n          __typename\n          lastCommit {\n            __typename\n            id\n            sha\n            title\n            titleHtml\n            descriptionHtml\n            message\n            webPath\n            authoredDate\n            authorName\n            authorGravatar\n            author {\n              __typename\n              id\n              name\n              avatarUrl\n              webPath\n            }\n            signatureHtml\n            pipelines(ref: $ref, first: 1) {\n              __typename\n              edges {\n                __typename\n                node {\n                  __typename\n                  id\n                  detailedStatus {\n                    __typename\n                    id\n                    detailsPath\n                    icon\n                    tooltip\n                    text\n                    group\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}}
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Started POST "/api/graphql" for 172.17.0.1 at 2022-09-30 15:49:42 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 162)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:49:42 +0000
+Processing by GraphqlController#execute as */*
+  Parameters: {"_json"=>[{"operationName"=>"getPermissions", "variables"=>"[FILTERED]", "query"=>"query getPermissions($projectPath: ID!) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    userPermissions {\n      __typename\n      pushCode\n      forkProject\n      createMergeRequestIn\n    }\n  }\n}\n"}, {"operationName"=>"getPaginatedTree", "variables"=>"[FILTERED]", "query"=>"fragment TreeEntry on Entry {\n  __typename\n  id\n  sha\n  name\n  flatPath\n  type\n}\n\nquery getPaginatedTree($projectPath: ID!, $path: String, $ref: String!, $nextPageCursor: String) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref, after: $nextPageCursor) {\n        __typename\n        pageInfo {\n          __typename\n          endCursor\n          startCursor\n          hasNextPage\n        }\n        nodes {\n          __typename\n          trees {\n            __typename\n            nodes {\n              ...TreeEntry\n              webPath\n              __typename\n            }\n          }\n          submodules {\n            __typename\n            nodes {\n              ...TreeEntry\n              webUrl\n              treeUrl\n              __typename\n            }\n          }\n          blobs {\n            __typename\n            nodes {\n              ...TreeEntry\n              mode\n              webPath\n              lfsOid\n              __typename\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}], "graphql"=>{"_json"=>[{"operationName"=>"getPermissions", "variables"=>"[FILTERED]", "query"=>"query getPermissions($projectPath: ID!) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    userPermissions {\n      __typename\n      pushCode\n      forkProject\n      createMergeRequestIn\n    }\n  }\n}\n"}, {"operationName"=>"getPaginatedTree", "variables"=>"[FILTERED]", "query"=>"fragment TreeEntry on Entry {\n  __typename\n  id\n  sha\n  name\n  flatPath\n  type\n}\n\nquery getPaginatedTree($projectPath: ID!, $path: String, $ref: String!, $nextPageCursor: String) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref, after: $nextPageCursor) {\n        __typename\n        pageInfo {\n          __typename\n          endCursor\n          startCursor\n          hasNextPage\n        }\n        nodes {\n          __typename\n          trees {\n            __typename\n            nodes {\n              ...TreeEntry\n              webPath\n              __typename\n            }\n          }\n          submodules {\n            __typename\n            nodes {\n              ...TreeEntry\n              webUrl\n              treeUrl\n              __typename\n            }\n          }\n          blobs {\n            __typename\n            nodes {\n              ...TreeEntry\n              mode\n              webPath\n              lfsOid\n              __typename\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}]}}
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 9ms (Views: 3.1ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1854)
+Completed 200 OK in 103ms (Views: 0.5ms | ActiveRecord: 11.3ms | Elasticsearch: 0.0ms | Allocations: 21457)
+Completed 200 OK in 128ms (Views: 0.6ms | ActiveRecord: 6.1ms | Elasticsearch: 0.0ms | Allocations: 57548)
+Started GET "/root/test/-/packages" for 172.17.0.1 at 2022-09-30 15:49:47 +0000
+Processing by Projects::Packages::PackagesController#index as HTML
+  Parameters: {"namespace_id"=>"root", "project_id"=>"test"}
+  Rendered layout layouts/project.html.haml (Duration: 178.5ms | Allocations: 101414)
+Completed 200 OK in 200ms (Views: 174.6ms | ActiveRecord: 6.3ms | Elasticsearch: 0.0ms | Allocations: 112133)
+Started POST "/api/graphql" for 172.17.0.1 at 2022-09-30 15:49:47 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Processing by GraphqlController#execute as */*
+  Parameters: {"_json"=>[{"operationName"=>"getPackages", "variables"=>"[FILTERED]", "query"=>"query getPackages($fullPath: ID!, $isGroupPage: Boolean!, $sort: PackageSort, $groupSort: PackageGroupSort, $packageName: String, $packageType: PackageTypeEnum, $first: Int, $last: Int, $after: String, $before: String) {\n  project(fullPath: $fullPath) @skip(if: $isGroupPage) {\n    id\n    packages(\n      sort: $sort\n      packageName: $packageName\n      packageType: $packageType\n      after: $after\n      before: $before\n      first: $first\n      last: $last\n    ) {\n      count\n      nodes {\n        ...PackageData\n        __typename\n      }\n      pageInfo {\n        ...PageInfo\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  group(fullPath: $fullPath) @include(if: $isGroupPage) {\n    id\n    packages(\n      sort: $groupSort\n      packageName: $packageName\n      packageType: $packageType\n      after: $after\n      before: $before\n      first: $first\n      last: $last\n    ) {\n      count\n      nodes {\n        ...PackageData\n        __typename\n      }\n      pageInfo {\n        ...PageInfo\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment PackageData on Package {\n  id\n  name\n  version\n  packageType\n  createdAt\n  status\n  canDestroy\n  tags {\n    nodes {\n      id\n      name\n      __typename\n    }\n    __typename\n  }\n  pipelines(last: 1) {\n    nodes {\n      id\n      sha\n      ref\n      commitPath\n      user {\n        id\n        name\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  project {\n    id\n    fullPath\n    webUrl\n    __typename\n  }\n  __typename\n}\n\nfragment PageInfo on PageInfo {\n  hasNextPage\n  hasPreviousPage\n  startCursor\n  endCursor\n  __typename\n}\n"}], "graphql"=>{"_json"=>[{"operationName"=>"getPackages", "variables"=>"[FILTERED]", "query"=>"query getPackages($fullPath: ID!, $isGroupPage: Boolean!, $sort: PackageSort, $groupSort: PackageGroupSort, $packageName: String, $packageType: PackageTypeEnum, $first: Int, $last: Int, $after: String, $before: String) {\n  project(fullPath: $fullPath) @skip(if: $isGroupPage) {\n    id\n    packages(\n      sort: $sort\n      packageName: $packageName\n      packageType: $packageType\n      after: $after\n      before: $before\n      first: $first\n      last: $last\n    ) {\n      count\n      nodes {\n        ...PackageData\n        __typename\n      }\n      pageInfo {\n        ...PageInfo\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  group(fullPath: $fullPath) @include(if: $isGroupPage) {\n    id\n    packages(\n      sort: $groupSort\n      packageName: $packageName\n      packageType: $packageType\n      after: $after\n      before: $before\n      first: $first\n      last: $last\n    ) {\n      count\n      nodes {\n        ...PackageData\n        __typename\n      }\n      pageInfo {\n        ...PageInfo\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment PackageData on Package {\n  id\n  name\n  version\n  packageType\n  createdAt\n  status\n  canDestroy\n  tags {\n    nodes {\n      id\n      name\n      __typename\n    }\n    __typename\n  }\n  pipelines(last: 1) {\n    nodes {\n      id\n      sha\n      ref\n      commitPath\n      user {\n        id\n        name\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  project {\n    id\n    fullPath\n    webUrl\n    __typename\n  }\n  __typename\n}\n\nfragment PageInfo on PageInfo {\n  hasNextPage\n  hasPreviousPage\n  startCursor\n  endCursor\n  __typename\n}\n"}]}}
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:49:47 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1845)
+Completed 200 OK in 60ms (Views: 0.3ms | ActiveRecord: 7.7ms | Elasticsearch: 0.0ms | Allocations: 20322)
+Started GET "/root/test" for 172.17.0.1 at 2022-09-30 15:49:50 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"root", "id"=>"test"}
+  Rendered layout layouts/project.html.haml (Duration: 975.2ms | Allocations: 665155)
+Completed 200 OK in 1018ms (Views: 949.6ms | ActiveRecord: 29.9ms | Elasticsearch: 0.0ms | Allocations: 680369)
+Started GET "/root/test/-/refs/main/logs_tree/?format=json&offset=0" for 172.17.0.1 at 2022-09-30 15:49:51 +0000
+Started GET "/root/test/-/blob/main/README.md?format=json&viewer=rich" for 172.17.0.1 at 2022-09-30 15:49:51 +0000
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"root", "project_id"=>"test", "id"=>"main/README.md"}
+Processing by Projects::RefsController#logs_tree as JSON
+  Parameters: {"offset"=>"0", "namespace_id"=>"root", "project_id"=>"test", "id"=>"main"}
+Completed 200 OK in 77ms (Views: 0.2ms | ActiveRecord: 9.2ms | Elasticsearch: 0.0ms | Allocations: 17517)
+Completed 200 OK in 103ms (Views: 1.0ms | ActiveRecord: 3.3ms | Elasticsearch: 0.0ms | Allocations: 35389)
+Started POST "/api/graphql" for 172.17.0.1 at 2022-09-30 15:49:52 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Processing by GraphqlController#execute as */*
+  Parameters: {"operationName"=>"pathLastCommit", "variables"=>"[FILTERED]", "query"=>"query pathLastCommit($projectPath: ID!, $path: String, $ref: String!) {\n  project(fullPath: $projectPath) {\n    __typename\n    id\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref) {\n        __typename\n        nodes {\n          __typename\n          lastCommit {\n            __typename\n            id\n            sha\n            title\n            titleHtml\n            descriptionHtml\n            message\n            webPath\n            authoredDate\n            authorName\n            authorGravatar\n            author {\n              __typename\n              id\n              name\n              avatarUrl\n              webPath\n            }\n            signatureHtml\n            pipelines(ref: $ref, first: 1) {\n              __typename\n              edges {\n                __typename\n                node {\n                  __typename\n                  id\n                  detailedStatus {\n                    __typename\n                    id\n                    detailsPath\n                    icon\n                    tooltip\n                    text\n                    group\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n", "graphql"=>{"operationName"=>"pathLastCommit", "variables"=>"[FILTERED]", "query"=>"query pathLastCommit($projectPath: ID!, $path: String, $ref: String!) {\n  project(fullPath: $projectPath) {\n    __typename\n    id\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref) {\n        __typename\n        nodes {\n          __typename\n          lastCommit {\n            __typename\n            id\n            sha\n            title\n            titleHtml\n            descriptionHtml\n            message\n            webPath\n            authoredDate\n            authorName\n            authorGravatar\n            author {\n              __typename\n              id\n              name\n              avatarUrl\n              webPath\n            }\n            signatureHtml\n            pipelines(ref: $ref, first: 1) {\n              __typename\n              edges {\n                __typename\n                node {\n                  __typename\n                  id\n                  detailedStatus {\n                    __typename\n                    id\n                    detailsPath\n                    icon\n                    tooltip\n                    text\n                    group\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}}
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Started POST "/api/graphql" for 172.17.0.1 at 2022-09-30 15:49:52 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:49:52 +0000
+Processing by PwaController#manifest as JSON
+Processing by GraphqlController#execute as */*
+  Parameters: {"_json"=>[{"operationName"=>"getPermissions", "variables"=>"[FILTERED]", "query"=>"query getPermissions($projectPath: ID!) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    userPermissions {\n      __typename\n      pushCode\n      forkProject\n      createMergeRequestIn\n    }\n  }\n}\n"}, {"operationName"=>"getPaginatedTree", "variables"=>"[FILTERED]", "query"=>"fragment TreeEntry on Entry {\n  __typename\n  id\n  sha\n  name\n  flatPath\n  type\n}\n\nquery getPaginatedTree($projectPath: ID!, $path: String, $ref: String!, $nextPageCursor: String) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref, after: $nextPageCursor) {\n        __typename\n        pageInfo {\n          __typename\n          endCursor\n          startCursor\n          hasNextPage\n        }\n        nodes {\n          __typename\n          trees {\n            __typename\n            nodes {\n              ...TreeEntry\n              webPath\n              __typename\n            }\n          }\n          submodules {\n            __typename\n            nodes {\n              ...TreeEntry\n              webUrl\n              treeUrl\n              __typename\n            }\n          }\n          blobs {\n            __typename\n            nodes {\n              ...TreeEntry\n              mode\n              webPath\n              lfsOid\n              __typename\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}], "graphql"=>{"_json"=>[{"operationName"=>"getPermissions", "variables"=>"[FILTERED]", "query"=>"query getPermissions($projectPath: ID!) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    userPermissions {\n      __typename\n      pushCode\n      forkProject\n      createMergeRequestIn\n    }\n  }\n}\n"}, {"operationName"=>"getPaginatedTree", "variables"=>"[FILTERED]", "query"=>"fragment TreeEntry on Entry {\n  __typename\n  id\n  sha\n  name\n  flatPath\n  type\n}\n\nquery getPaginatedTree($projectPath: ID!, $path: String, $ref: String!, $nextPageCursor: String) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref, after: $nextPageCursor) {\n        __typename\n        pageInfo {\n          __typename\n          endCursor\n          startCursor\n          hasNextPage\n        }\n        nodes {\n          __typename\n          trees {\n            __typename\n            nodes {\n              ...TreeEntry\n              webPath\n              __typename\n            }\n          }\n          submodules {\n            __typename\n            nodes {\n              ...TreeEntry\n              webUrl\n              treeUrl\n              __typename\n            }\n          }\n          blobs {\n            __typename\n            nodes {\n              ...TreeEntry\n              mode\n              webPath\n              lfsOid\n              __typename\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}]}}
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Completed 200 OK in 8ms (Views: 2.1ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1846)
+Completed 200 OK in 93ms (Views: 0.5ms | ActiveRecord: 9.6ms | Elasticsearch: 0.0ms | Allocations: 20441)
+Completed 200 OK in 110ms (Views: 1.0ms | ActiveRecord: 5.7ms | Elasticsearch: 0.0ms | Allocations: 21216)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:49:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 60ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/users/sign_in?redirect_to_referer=yes" for 172.17.0.1 at 2022-09-30 15:49:56 +0000
+Processing by SessionsController#new as HTML
+  Parameters: {"redirect_to_referer"=>"yes"}
+  Rendered layout layouts/devise.html.haml (Duration: 163.2ms | Allocations: 117114)
+Completed 200 OK in 194ms (Views: 166.8ms | ActiveRecord: 1.8ms | Elasticsearch: 0.0ms | Allocations: 128342)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:49:56 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1853)
+Started POST "/users/sign_in" for 172.17.0.1 at 2022-09-30 15:50:01 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"root", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+Redirected to http://localhost:19080/root/test
+Completed 302 Found in 209ms (ActiveRecord: 22.3ms | Elasticsearch: 0.0ms | Allocations: 39022)
+Started GET "/root/test" for 172.17.0.1 at 2022-09-30 15:50:01 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"root", "id"=>"test"}
+  Rendered layout layouts/project.html.haml (Duration: 460.0ms | Allocations: 170158)
+Completed 200 OK in 554ms (Views: 431.8ms | ActiveRecord: 33.9ms | Elasticsearch: 0.0ms | Allocations: 185843)
+Started GET "/root/test/-/blob/main/README.md?format=json&viewer=rich" for 172.17.0.1 at 2022-09-30 15:50:02 +0000
+Started GET "/root/test/-/refs/main/logs_tree/?format=json&offset=0" for 172.17.0.1 at 2022-09-30 15:50:02 +0000
+Processing by Projects::RefsController#logs_tree as JSON
+  Parameters: {"offset"=>"0", "namespace_id"=>"root", "project_id"=>"test", "id"=>"main"}
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"root", "project_id"=>"test", "id"=>"main/README.md"}
+Completed 200 OK in 63ms (Views: 0.4ms | ActiveRecord: 6.7ms | Elasticsearch: 0.0ms | Allocations: 13054)
+Completed 200 OK in 84ms (Views: 1.2ms | ActiveRecord: 2.8ms | Elasticsearch: 0.0ms | Allocations: 16167)
+Started POST "/api/graphql" for 172.17.0.1 at 2022-09-30 15:50:02 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Processing by GraphqlController#execute as */*
+  Parameters: {"operationName"=>"pathLastCommit", "variables"=>"[FILTERED]", "query"=>"query pathLastCommit($projectPath: ID!, $path: String, $ref: String!) {\n  project(fullPath: $projectPath) {\n    __typename\n    id\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref) {\n        __typename\n        nodes {\n          __typename\n          lastCommit {\n            __typename\n            id\n            sha\n            title\n            titleHtml\n            descriptionHtml\n            message\n            webPath\n            authoredDate\n            authorName\n            authorGravatar\n            author {\n              __typename\n              id\n              name\n              avatarUrl\n              webPath\n            }\n            signatureHtml\n            pipelines(ref: $ref, first: 1) {\n              __typename\n              edges {\n                __typename\n                node {\n                  __typename\n                  id\n                  detailedStatus {\n                    __typename\n                    id\n                    detailsPath\n                    icon\n                    tooltip\n                    text\n                    group\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n", "graphql"=>{"operationName"=>"pathLastCommit", "variables"=>"[FILTERED]", "query"=>"query pathLastCommit($projectPath: ID!, $path: String, $ref: String!) {\n  project(fullPath: $projectPath) {\n    __typename\n    id\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref) {\n        __typename\n        nodes {\n          __typename\n          lastCommit {\n            __typename\n            id\n            sha\n            title\n            titleHtml\n            descriptionHtml\n            message\n            webPath\n            authoredDate\n            authorName\n            authorGravatar\n            author {\n              __typename\n              id\n              name\n              avatarUrl\n              webPath\n            }\n            signatureHtml\n            pipelines(ref: $ref, first: 1) {\n              __typename\n              edges {\n                __typename\n                node {\n                  __typename\n                  id\n                  detailedStatus {\n                    __typename\n                    id\n                    detailsPath\n                    icon\n                    tooltip\n                    text\n                    group\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}}
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Started POST "/api/graphql" for 172.17.0.1 at 2022-09-30 15:50:02 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:50:02 +0000
+Processing by PwaController#manifest as JSON
+Processing by GraphqlController#execute as */*
+  Parameters: {"_json"=>[{"operationName"=>"getPermissions", "variables"=>"[FILTERED]", "query"=>"query getPermissions($projectPath: ID!) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    userPermissions {\n      __typename\n      pushCode\n      forkProject\n      createMergeRequestIn\n    }\n  }\n}\n"}, {"operationName"=>"getPaginatedTree", "variables"=>"[FILTERED]", "query"=>"fragment TreeEntry on Entry {\n  __typename\n  id\n  sha\n  name\n  flatPath\n  type\n}\n\nquery getPaginatedTree($projectPath: ID!, $path: String, $ref: String!, $nextPageCursor: String) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref, after: $nextPageCursor) {\n        __typename\n        pageInfo {\n          __typename\n          endCursor\n          startCursor\n          hasNextPage\n        }\n        nodes {\n          __typename\n          trees {\n            __typename\n            nodes {\n              ...TreeEntry\n              webPath\n              __typename\n            }\n          }\n          submodules {\n            __typename\n            nodes {\n              ...TreeEntry\n              webUrl\n              treeUrl\n              __typename\n            }\n          }\n          blobs {\n            __typename\n            nodes {\n              ...TreeEntry\n              mode\n              webPath\n              lfsOid\n              __typename\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}], "graphql"=>{"_json"=>[{"operationName"=>"getPermissions", "variables"=>"[FILTERED]", "query"=>"query getPermissions($projectPath: ID!) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    userPermissions {\n      __typename\n      pushCode\n      forkProject\n      createMergeRequestIn\n    }\n  }\n}\n"}, {"operationName"=>"getPaginatedTree", "variables"=>"[FILTERED]", "query"=>"fragment TreeEntry on Entry {\n  __typename\n  id\n  sha\n  name\n  flatPath\n  type\n}\n\nquery getPaginatedTree($projectPath: ID!, $path: String, $ref: String!, $nextPageCursor: String) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref, after: $nextPageCursor) {\n        __typename\n        pageInfo {\n          __typename\n          endCursor\n          startCursor\n          hasNextPage\n        }\n        nodes {\n          __typename\n          trees {\n            __typename\n            nodes {\n              ...TreeEntry\n              webPath\n              __typename\n            }\n          }\n          submodules {\n            __typename\n            nodes {\n              ...TreeEntry\n              webUrl\n              treeUrl\n              __typename\n            }\n          }\n          blobs {\n            __typename\n            nodes {\n              ...TreeEntry\n              mode\n              webPath\n              lfsOid\n              __typename\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}]}}
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1846)
+Completed 200 OK in 112ms (Views: 0.5ms | ActiveRecord: 11.5ms | Elasticsearch: 0.0ms | Allocations: 31020)
+Completed 200 OK in 72ms (Views: 0.5ms | ActiveRecord: 3.2ms | Elasticsearch: 0.0ms | Allocations: 31580)
+Started GET "/-/profile" for 172.17.0.1 at 2022-09-30 15:50:07 +0000
+Processing by ProfilesController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 102.3ms | Allocations: 55405)
+Completed 200 OK in 120ms (Views: 97.7ms | ActiveRecord: 7.9ms | Elasticsearch: 0.0ms | Allocations: 59197)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:50:07 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 6ms (Views: 2.3ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1845)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:50:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/profile/keys" for 172.17.0.1 at 2022-09-30 15:50:09 +0000
+Processing by Profiles::KeysController#index as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 115.3ms | Allocations: 77947)
+Completed 200 OK in 146ms (Views: 110.1ms | ActiveRecord: 11.5ms | Elasticsearch: 0.0ms | Allocations: 91220)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:50:09 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1845)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:50:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 95ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:50:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 63ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:50:41 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 104.1ms | Allocations: 85391)
+Completed 200 OK in 110ms (Views: 103.5ms | ActiveRecord: 1.6ms | Elasticsearch: 0.0ms | Allocations: 87052)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:50:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 88ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:51:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 64ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:51:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 60ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started POST "/-/profile/keys" for 172.17.0.1 at 2022-09-30 15:51:31 +0000
+Processing by Profiles::KeysController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "key"=>"[FILTERED]"}
+Redirected to http://localhost:19080/-/profile/keys/3
+Completed 302 Found in 76ms (ActiveRecord: 9.0ms | Elasticsearch: 0.0ms | Allocations: 17976)
+Started GET "/-/profile/keys/3" for 172.17.0.1 at 2022-09-30 15:51:31 +0000
+Processing by Profiles::KeysController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendered layout layouts/notify.html.haml (Duration: 4.7ms | Allocations: 1017)
+  Rendered layout layouts/notify.text.erb (Duration: 2.3ms | Allocations: 504)
+Delivered mail 6337108369372_1b2532f099338@127.0.0.1.mail (5.1ms)
+  Rendered layout layouts/profile.html.haml (Duration: 91.5ms | Allocations: 37784)
+Completed 200 OK in 116ms (Views: 88.1ms | ActiveRecord: 7.0ms | Elasticsearch: 0.0ms | Allocations: 43108)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:51:32 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 6ms (Views: 1.9ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1853)
+Started GET "/-/profile/keys/3" for 172.17.0.1 at 2022-09-30 15:51:34 +0000
+Processing by Profiles::KeysController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendered layout layouts/profile.html.haml (Duration: 85.8ms | Allocations: 36012)
+Completed 200 OK in 108ms (Views: 81.7ms | ActiveRecord: 7.0ms | Elasticsearch: 0.0ms | Allocations: 41162)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:51:35 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1846)
+Started GET "/-/profile/keys" for 172.17.0.1 at 2022-09-30 15:51:36 +0000
+Processing by Profiles::KeysController#index as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 83.5ms | Allocations: 41055)
+Completed 200 OK in 102ms (Views: 77.8ms | ActiveRecord: 8.3ms | Elasticsearch: 0.0ms | Allocations: 46521)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 15:51:36 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1845)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:51:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 59ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:51:41 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 135.8ms | Allocations: 84469)
+Completed 200 OK in 140ms (Views: 134.9ms | ActiveRecord: 1.6ms | Elasticsearch: 0.0ms | Allocations: 86331)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:51:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:52:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 78ms (Views: 0.8ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:52:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:52:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:52:42 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 82.1ms | Allocations: 84327)
+Completed 200 OK in 86ms (Views: 81.1ms | ActiveRecord: 1.6ms | Elasticsearch: 0.0ms | Allocations: 85987)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:52:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:53:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 59ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:53:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 59ms (Views: 1.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:53:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:53:43 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 159.5ms | Allocations: 84295)
+Completed 200 OK in 166ms (Views: 158.7ms | ActiveRecord: 1.5ms | Elasticsearch: 0.0ms | Allocations: 86154)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:53:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 59ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:54:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 59ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:54:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:54:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:54:43 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 81.4ms | Allocations: 85001)
+Completed 200 OK in 86ms (Views: 80.2ms | ActiveRecord: 1.8ms | Elasticsearch: 0.0ms | Allocations: 86862)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:54:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:55:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:55:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:55:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:55:43 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 118.5ms | Allocations: 84505)
+Completed 200 OK in 123ms (Views: 117.5ms | ActiveRecord: 1.6ms | Elasticsearch: 0.0ms | Allocations: 86368)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:55:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:56:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:56:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:56:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 61ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:56:43 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 166.1ms | Allocations: 85179)
+Completed 200 OK in 173ms (Views: 165.2ms | ActiveRecord: 2.1ms | Elasticsearch: 0.0ms | Allocations: 87041)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:56:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:57:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 60ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:57:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 69ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:57:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:57:44 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 84.9ms | Allocations: 85222)
+Completed 200 OK in 90ms (Views: 84.2ms | ActiveRecord: 1.3ms | Elasticsearch: 0.0ms | Allocations: 87083)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:57:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 1.0ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:58:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 61ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:58:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:58:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 66ms (Views: 1.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:58:44 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 96.5ms | Allocations: 85574)
+Completed 200 OK in 103ms (Views: 95.2ms | ActiveRecord: 2.2ms | Elasticsearch: 0.0ms | Allocations: 87434)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:58:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:59:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 59ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:59:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 618ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1488)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:59:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 60ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Creating scope :group_view_details. Overwriting existing method User.group_view_details.
+Started GET "/help" for 127.0.0.1 at 2022-09-30 15:59:44 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 82.4ms | Allocations: 84302)
+Completed 200 OK in 87ms (Views: 81.8ms | ActiveRecord: 1.2ms | Elasticsearch: 0.0ms | Allocations: 86162)
+Raven 3.1.2 configured not to capture errors: DSN not set
+Creating scope :without_statuses. Overwriting existing method CommitStatus.without_statuses.
+Creating scope :verification_succeeded. Overwriting existing method Ci::JobArtifact.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Ci::JobArtifact.verification_failed.
+Creating scope :with_files_stored_locally. Overwriting existing method Ci::JobArtifact.with_files_stored_locally.
+Creating scope :with_files_stored_remotely. Overwriting existing method Ci::JobArtifact.with_files_stored_remotely.
+Creating scope :checksummed. Overwriting existing method Ci::JobArtifact.checksummed.
+Creating scope :not_checksummed. Overwriting existing method Ci::JobArtifact.not_checksummed.
+Creating scope :available_verifiables. Overwriting existing method Ci::JobArtifact.available_verifiables.
+Creating scope :in_pipelines. Overwriting existing method Ci::Build.in_pipelines.
+Creating scope :without_statuses. Overwriting existing method Ci::Pipeline.without_statuses.
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :opened. Overwriting existing method Epic.opened.
+Creating scope :closed. Overwriting existing method Epic.closed.
+Creating scope :with_api_entity_associations. Overwriting existing method Epic.with_api_entity_associations.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :order_created_desc. Overwriting existing method Packages::Package.order_created_desc.
+Creating scope :order_name_desc. Overwriting existing method Packages::Package.order_name_desc.
+Creating scope :closed. Overwriting existing method Iteration.closed.
+Creating scope :within_timeframe. Overwriting existing method Iteration.within_timeframe.
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 15:59:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 60ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:00:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:00:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:00:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:00:44 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 87.9ms | Allocations: 84632)
+Completed 200 OK in 93ms (Views: 86.5ms | ActiveRecord: 2.0ms | Elasticsearch: 0.0ms | Allocations: 86492)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:00:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:01:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 60ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:01:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 60ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:01:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 59ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:01:45 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 140.4ms | Allocations: 84287)
+Completed 200 OK in 146ms (Views: 139.5ms | ActiveRecord: 1.5ms | Elasticsearch: 0.0ms | Allocations: 86147)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:01:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 53ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:02:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 59ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:02:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:02:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:02:45 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 177.4ms | Allocations: 84814)
+Completed 200 OK in 184ms (Views: 175.5ms | ActiveRecord: 2.6ms | Elasticsearch: 0.0ms | Allocations: 86676)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:02:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:03:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:03:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:03:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:03:45 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 77.7ms | Allocations: 84323)
+Completed 200 OK in 81ms (Views: 76.6ms | ActiveRecord: 1.7ms | Elasticsearch: 0.0ms | Allocations: 85982)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:03:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:04:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:04:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:04:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:04:46 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 73.2ms | Allocations: 84671)
+Completed 200 OK in 77ms (Views: 72.1ms | ActiveRecord: 1.8ms | Elasticsearch: 0.0ms | Allocations: 86331)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:04:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:05:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 61ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:05:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:05:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:05:46 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 161.4ms | Allocations: 84287)
+Completed 200 OK in 168ms (Views: 160.7ms | ActiveRecord: 1.2ms | Elasticsearch: 0.0ms | Allocations: 86147)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:05:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:06:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:06:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:06:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 1.1ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:06:46 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 79.4ms | Allocations: 84639)
+Completed 200 OK in 84ms (Views: 77.4ms | ActiveRecord: 2.5ms | Elasticsearch: 0.0ms | Allocations: 86499)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:06:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:07:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:07:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 61ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:07:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:07:46 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 82.9ms | Allocations: 84473)
+Completed 200 OK in 88ms (Views: 80.7ms | ActiveRecord: 2.9ms | Elasticsearch: 0.0ms | Allocations: 86335)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:07:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 63ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:08:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:08:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:08:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:08:47 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 138.5ms | Allocations: 84629)
+Completed 200 OK in 145ms (Views: 136.2ms | ActiveRecord: 2.8ms | Elasticsearch: 0.0ms | Allocations: 86489)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:08:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:09:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 60ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:09:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 63ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:09:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 59ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:09:47 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 72.1ms | Allocations: 84286)
+Completed 200 OK in 76ms (Views: 71.0ms | ActiveRecord: 1.6ms | Elasticsearch: 0.0ms | Allocations: 86146)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:09:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 53ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:10:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:10:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:10:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 59ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:10:47 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 149.6ms | Allocations: 84628)
+Completed 200 OK in 155ms (Views: 148.0ms | ActiveRecord: 2.0ms | Elasticsearch: 0.0ms | Allocations: 86488)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:10:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:11:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:11:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:11:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:11:47 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 76.8ms | Allocations: 85000)
+Completed 200 OK in 81ms (Views: 73.7ms | ActiveRecord: 3.6ms | Elasticsearch: 0.0ms | Allocations: 86659)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:11:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:12:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:12:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:12:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:12:48 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 84.1ms | Allocations: 85331)
+Completed 200 OK in 88ms (Views: 82.9ms | ActiveRecord: 1.9ms | Elasticsearch: 0.0ms | Allocations: 86991)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:12:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:13:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1488)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:13:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:13:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 54ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:13:48 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 82.7ms | Allocations: 84312)
+Completed 200 OK in 87ms (Views: 79.9ms | ActiveRecord: 3.3ms | Elasticsearch: 0.0ms | Allocations: 86173)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:13:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:14:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:14:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:14:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 54ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:14:48 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 104.1ms | Allocations: 84632)
+Completed 200 OK in 108ms (Views: 102.8ms | ActiveRecord: 1.9ms | Elasticsearch: 0.0ms | Allocations: 86292)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:14:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 64ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:15:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 60ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1499)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:15:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:15:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:15:48 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 82.4ms | Allocations: 84330)
+Completed 200 OK in 87ms (Views: 79.3ms | ActiveRecord: 3.6ms | Elasticsearch: 0.0ms | Allocations: 86191)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:15:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:16:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:16:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 61ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:16:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:16:48 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 164.9ms | Allocations: 84921)
+Completed 200 OK in 173ms (Views: 163.2ms | ActiveRecord: 2.4ms | Elasticsearch: 0.0ms | Allocations: 86782)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:16:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:17:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:17:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:17:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:17:49 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 84.5ms | Allocations: 84293)
+Completed 200 OK in 89ms (Views: 83.0ms | ActiveRecord: 2.1ms | Elasticsearch: 0.0ms | Allocations: 86153)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:17:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:18:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:18:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 54ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:18:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:18:49 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 135.0ms | Allocations: 84627)
+Completed 200 OK in 140ms (Views: 132.5ms | ActiveRecord: 3.0ms | Elasticsearch: 0.0ms | Allocations: 86487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:18:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:19:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:19:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:19:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:19:49 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 164.2ms | Allocations: 84286)
+Completed 200 OK in 172ms (Views: 160.1ms | ActiveRecord: 4.6ms | Elasticsearch: 0.0ms | Allocations: 86146)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:19:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 62ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:20:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 59ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:20:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 60ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:20:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 62ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:20:50 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 189.0ms | Allocations: 84628)
+Completed 200 OK in 197ms (Views: 187.4ms | ActiveRecord: 2.0ms | Elasticsearch: 0.0ms | Allocations: 86488)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:20:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 61ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:21:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 63ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:21:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 65ms (Views: 1.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:21:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 65ms (Views: 0.8ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:21:50 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 89.7ms | Allocations: 84287)
+Completed 200 OK in 95ms (Views: 85.5ms | ActiveRecord: 4.8ms | Elasticsearch: 0.0ms | Allocations: 86147)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:21:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 68ms (Views: 1.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:22:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 62ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:22:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 71ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:22:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 66ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:22:50 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 100.6ms | Allocations: 84748)
+Completed 200 OK in 107ms (Views: 94.9ms | ActiveRecord: 6.8ms | Elasticsearch: 0.0ms | Allocations: 86611)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:22:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 65ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:23:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 66ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:23:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 65ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:23:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 66ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:23:50 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 197.6ms | Allocations: 84300)
+Completed 200 OK in 207ms (Views: 195.5ms | ActiveRecord: 3.4ms | Elasticsearch: 0.0ms | Allocations: 85959)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:23:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 75ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:24:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 66ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:24:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 68ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:24:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:24:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 81ms (Views: 1.0ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:24:55 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 152.6ms | Allocations: 84628)
+Completed 200 OK in 159ms (Views: 150.8ms | ActiveRecord: 2.8ms | Elasticsearch: 0.0ms | Allocations: 86488)
+Started GET "/-/profile/keys" for 172.17.0.1 at 2022-09-30 16:24:57 +0000
+Processing by Profiles::KeysController#index as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 418.9ms | Allocations: 167624)
+Completed 200 OK in 478ms (Views: 406.6ms | ActiveRecord: 23.5ms | Elasticsearch: 0.0ms | Allocations: 184103)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 16:24:58 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1846)
+Started GET "/-/profile" for 172.17.0.1 at 2022-09-30 16:24:59 +0000
+Processing by ProfilesController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 231.1ms | Allocations: 284228)
+Completed 200 OK in 254ms (Views: 222.1ms | ActiveRecord: 13.9ms | Elasticsearch: 0.0ms | Allocations: 292000)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 16:25:00 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 9ms (Views: 2.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1854)
+Started GET "/-/profile/applications" for 172.17.0.1 at 2022-09-30 16:25:03 +0000
+Processing by Oauth::ApplicationsController#index as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 103.6ms | Allocations: 72858)
+Completed 200 OK in 133ms (Views: 95.8ms | ActiveRecord: 15.4ms | Elasticsearch: 0.0ms | Allocations: 86864)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 16:25:03 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 7ms (Views: 2.3ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1854)
+Started GET "/-/profile/account" for 172.17.0.1 at 2022-09-30 16:25:03 +0000
+Processing by Profiles::AccountsController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 162.5ms | Allocations: 66262)
+Completed 200 OK in 188ms (Views: 158.4ms | ActiveRecord: 9.1ms | Elasticsearch: 0.0ms | Allocations: 72943)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 16:25:04 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 8ms (Views: 1.9ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1853)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:25:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.8ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/profile/chat_names" for 172.17.0.1 at 2022-09-30 16:25:08 +0000
+Processing by Profiles::ChatNamesController#index as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 89.2ms | Allocations: 44606)
+Completed 200 OK in 116ms (Views: 81.9ms | ActiveRecord: 11.7ms | Elasticsearch: 0.0ms | Allocations: 52589)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 16:25:09 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 6ms (Views: 2.3ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 2054)
+Started GET "/-/profile/applications" for 172.17.0.1 at 2022-09-30 16:25:09 +0000
+Processing by Oauth::ApplicationsController#index as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 111.2ms | Allocations: 71427)
+Completed 200 OK in 149ms (Views: 107.6ms | ActiveRecord: 11.3ms | Elasticsearch: 0.0ms | Allocations: 84372)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 16:25:10 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1854)
+Started GET "/-/profile/account" for 172.17.0.1 at 2022-09-30 16:25:10 +0000
+Processing by Profiles::AccountsController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 102.4ms | Allocations: 39468)
+Completed 200 OK in 120ms (Views: 96.6ms | ActiveRecord: 8.2ms | Elasticsearch: 0.0ms | Allocations: 43461)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 16:25:11 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 6ms (Views: 1.8ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1845)
+Started GET "/-/profile/two_factor_auth" for 172.17.0.1 at 2022-09-30 16:25:11 +0000
+Processing by Profiles::TwoFactorAuthsController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 189.9ms | Allocations: 87490)
+Completed 200 OK in 418ms (Views: 188.1ms | ActiveRecord: 23.2ms | Elasticsearch: 0.0ms | Allocations: 187317)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 16:25:12 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1853)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 16:25:15 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 9ms (Views: 2.3ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1854)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:25:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 63ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/" for 172.17.0.1 at 2022-09-30 16:25:33 +0000
+Processing by RootController#index as HTML
+  Rendered layout layouts/dashboard.html.haml (Duration: 190.1ms | Allocations: 70380)
+Completed 200 OK in 259ms (Views: 175.6ms | ActiveRecord: 31.5ms | Elasticsearch: 0.0ms | Allocations: 83658)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 16:25:34 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 7ms (Views: 1.3ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1853)
+Started GET "/gitlab-instance-128b3027/Monitoring" for 172.17.0.1 at 2022-09-30 16:25:35 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"gitlab-instance-128b3027", "id"=>"Monitoring"}
+  Rendered layout layouts/project.html.haml (Duration: 670.4ms | Allocations: 285844)
+Completed 200 OK in 763ms (Views: 633.4ms | ActiveRecord: 50.1ms | Elasticsearch: 0.0ms | Allocations: 317404)
+Started GET "/root/test" for 172.17.0.1 at 2022-09-30 16:25:37 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"root", "id"=>"test"}
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:25:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 62ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+  Rendered layout layouts/project.html.haml (Duration: 1710.2ms | Allocations: 765355)
+Completed 200 OK in 1786ms (Views: 1645.6ms | ActiveRecord: 75.6ms | Elasticsearch: 0.0ms | Allocations: 796301)
+Started GET "/root/test/-/refs/main/logs_tree/?format=json&offset=0" for 172.17.0.1 at 2022-09-30 16:25:48 +0000
+Started GET "/root/test/-/blob/main/README.md?format=json&viewer=rich" for 172.17.0.1 at 2022-09-30 16:25:48 +0000
+Processing by Projects::BlobController#show as JSON
+  Parameters: {"viewer"=>"rich", "namespace_id"=>"root", "project_id"=>"test", "id"=>"main/README.md"}
+Processing by Projects::RefsController#logs_tree as JSON
+  Parameters: {"offset"=>"0", "namespace_id"=>"root", "project_id"=>"test", "id"=>"main"}
+Completed 200 OK in 71ms (Views: 0.3ms | ActiveRecord: 5.7ms | Elasticsearch: 0.0ms | Allocations: 11135)
+Completed 200 OK in 113ms (Views: 0.9ms | ActiveRecord: 3.9ms | Elasticsearch: 0.0ms | Allocations: 34237)
+Started POST "/api/graphql" for 172.17.0.1 at 2022-09-30 16:25:48 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Processing by GraphqlController#execute as */*
+  Parameters: {"operationName"=>"pathLastCommit", "variables"=>"[FILTERED]", "query"=>"query pathLastCommit($projectPath: ID!, $path: String, $ref: String!) {\n  project(fullPath: $projectPath) {\n    __typename\n    id\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref) {\n        __typename\n        nodes {\n          __typename\n          lastCommit {\n            __typename\n            id\n            sha\n            title\n            titleHtml\n            descriptionHtml\n            message\n            webPath\n            authoredDate\n            authorName\n            authorGravatar\n            author {\n              __typename\n              id\n              name\n              avatarUrl\n              webPath\n            }\n            signatureHtml\n            pipelines(ref: $ref, first: 1) {\n              __typename\n              edges {\n                __typename\n                node {\n                  __typename\n                  id\n                  detailedStatus {\n                    __typename\n                    id\n                    detailsPath\n                    icon\n                    tooltip\n                    text\n                    group\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n", "graphql"=>{"operationName"=>"pathLastCommit", "variables"=>"[FILTERED]", "query"=>"query pathLastCommit($projectPath: ID!, $path: String, $ref: String!) {\n  project(fullPath: $projectPath) {\n    __typename\n    id\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref) {\n        __typename\n        nodes {\n          __typename\n          lastCommit {\n            __typename\n            id\n            sha\n            title\n            titleHtml\n            descriptionHtml\n            message\n            webPath\n            authoredDate\n            authorName\n            authorGravatar\n            author {\n              __typename\n              id\n              name\n              avatarUrl\n              webPath\n            }\n            signatureHtml\n            pipelines(ref: $ref, first: 1) {\n              __typename\n              edges {\n                __typename\n                node {\n                  __typename\n                  id\n                  detailedStatus {\n                    __typename\n                    id\n                    detailsPath\n                    icon\n                    tooltip\n                    text\n                    group\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}}
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Started POST "/api/graphql" for 172.17.0.1 at 2022-09-30 16:25:48 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Processing by GraphqlController#execute as */*
+  Parameters: {"_json"=>[{"operationName"=>"getPermissions", "variables"=>"[FILTERED]", "query"=>"query getPermissions($projectPath: ID!) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    userPermissions {\n      __typename\n      pushCode\n      forkProject\n      createMergeRequestIn\n    }\n  }\n}\n"}, {"operationName"=>"getPaginatedTree", "variables"=>"[FILTERED]", "query"=>"fragment TreeEntry on Entry {\n  __typename\n  id\n  sha\n  name\n  flatPath\n  type\n}\n\nquery getPaginatedTree($projectPath: ID!, $path: String, $ref: String!, $nextPageCursor: String) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref, after: $nextPageCursor) {\n        __typename\n        pageInfo {\n          __typename\n          endCursor\n          startCursor\n          hasNextPage\n        }\n        nodes {\n          __typename\n          trees {\n            __typename\n            nodes {\n              ...TreeEntry\n              webPath\n              __typename\n            }\n          }\n          submodules {\n            __typename\n            nodes {\n              ...TreeEntry\n              webUrl\n              treeUrl\n              __typename\n            }\n          }\n          blobs {\n            __typename\n            nodes {\n              ...TreeEntry\n              mode\n              webPath\n              lfsOid\n              __typename\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}], "graphql"=>{"_json"=>[{"operationName"=>"getPermissions", "variables"=>"[FILTERED]", "query"=>"query getPermissions($projectPath: ID!) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    userPermissions {\n      __typename\n      pushCode\n      forkProject\n      createMergeRequestIn\n    }\n  }\n}\n"}, {"operationName"=>"getPaginatedTree", "variables"=>"[FILTERED]", "query"=>"fragment TreeEntry on Entry {\n  __typename\n  id\n  sha\n  name\n  flatPath\n  type\n}\n\nquery getPaginatedTree($projectPath: ID!, $path: String, $ref: String!, $nextPageCursor: String) {\n  project(fullPath: $projectPath) {\n    id\n    __typename\n    repository {\n      __typename\n      paginatedTree(path: $path, ref: $ref, after: $nextPageCursor) {\n        __typename\n        pageInfo {\n          __typename\n          endCursor\n          startCursor\n          hasNextPage\n        }\n        nodes {\n          __typename\n          trees {\n            __typename\n            nodes {\n              ...TreeEntry\n              webPath\n              __typename\n            }\n          }\n          submodules {\n            __typename\n            nodes {\n              ...TreeEntry\n              webUrl\n              treeUrl\n              __typename\n            }\n          }\n          blobs {\n            __typename\n            nodes {\n              ...TreeEntry\n              mode\n              webPath\n              lfsOid\n              __typename\n            }\n          }\n        }\n      }\n    }\n  }\n}\n"}]}}
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Started GET "/-/manifest.json" for 172.17.0.1 at 2022-09-30 16:25:48 +0000
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 8ms (Views: 1.9ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1853)
+Completed 200 OK in 123ms (Views: 0.3ms | ActiveRecord: 9.6ms | Elasticsearch: 0.0ms | Allocations: 19744)
+Completed 200 OK in 83ms (Views: 0.5ms | ActiveRecord: 3.5ms | Elasticsearch: 0.0ms | Allocations: 31620)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:25:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:25:59 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 86.3ms | Allocations: 83930)
+Completed 200 OK in 91ms (Views: 85.6ms | ActiveRecord: 1.4ms | Elasticsearch: 0.0ms | Allocations: 85591)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:26:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 77ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:26:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 61ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:26:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 64ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:26:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 61ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:26:59 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 79.6ms | Allocations: 84627)
+Completed 200 OK in 84ms (Views: 77.4ms | ActiveRecord: 2.8ms | Elasticsearch: 0.0ms | Allocations: 86286)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:27:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 59ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:27:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 60ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/root/test.git/info/refs?service=git-upload-pack" for 172.17.0.1 at 2022-09-30 16:27:32 +0000
+Processing by Repositories::GitHttpController#info_refs as */*
+  Parameters: {"service"=>"git-upload-pack", "repository_path"=>"root/test.git"}
+Completed 200 OK in 38ms (Views: 0.9ms | ActiveRecord: 5.8ms | Elasticsearch: 0.0ms | Allocations: 11167)
+Started POST "/root/test.git/git-upload-pack" for 172.17.0.1 at 2022-09-30 16:27:32 +0000
+Processing by Repositories::GitHttpController#git_upload_pack as */*
+  Parameters: {"repository_path"=>"root/test.git"}
+Completed 200 OK in 61ms (Views: 0.8ms | ActiveRecord: 14.6ms | Elasticsearch: 0.0ms | Allocations: 12524)
+Started POST "/root/test.git/git-upload-pack" for 172.17.0.1 at 2022-09-30 16:27:33 +0000
+Processing by Repositories::GitHttpController#git_upload_pack as */*
+  Parameters: {"repository_path"=>"root/test.git"}
+Completed 200 OK in 39ms (Views: 0.3ms | ActiveRecord: 11.7ms | Elasticsearch: 0.0ms | Allocations: 11645)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:27:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:27:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:27:59 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 141.8ms | Allocations: 84301)
+Completed 200 OK in 149ms (Views: 140.0ms | ActiveRecord: 2.4ms | Elasticsearch: 0.0ms | Allocations: 86161)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:28:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 255ms (Views: 1.0ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1488)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:28:20 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 62ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:28:35 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:28:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:29:00 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 106.7ms | Allocations: 84835)
+Completed 200 OK in 113ms (Views: 104.3ms | ActiveRecord: 3.2ms | Elasticsearch: 0.0ms | Allocations: 86697)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:29:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 118ms (Views: 1.3ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1500)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:29:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 63ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:29:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:29:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 58ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1487)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:30:00 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 115.5ms | Allocations: 84314)
+Completed 200 OK in 119ms (Views: 114.7ms | ActiveRecord: 1.3ms | Elasticsearch: 0.0ms | Allocations: 85973)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:30:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 65ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:30:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:30:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 55ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:30:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 61ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:31:00 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 89.1ms | Allocations: 84807)
+Completed 200 OK in 94ms (Views: 87.4ms | ActiveRecord: 2.3ms | Elasticsearch: 0.0ms | Allocations: 86668)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:31:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 61ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:31:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 61ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:31:38 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 60ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:31:53 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 56ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/help" for 127.0.0.1 at 2022-09-30 16:32:00 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 76.9ms | Allocations: 84331)
+Completed 200 OK in 81ms (Views: 76.1ms | ActiveRecord: 1.4ms | Elasticsearch: 0.0ms | Allocations: 85991)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:32:08 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 75ms (Views: 0.9ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-09-30 16:32:23 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 151ms (Views: 1.0ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1486)
+Creating scope :group_view_details. Overwriting existing method User.group_view_details.
+Creating scope :group_view_details. Overwriting existing method User.group_view_details.
+Creating scope :group_view_details. Overwriting existing method User.group_view_details.
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Raven 3.1.2 configured not to capture errors: DSN not set
+Creating scope :without_statuses. Overwriting existing method CommitStatus.without_statuses.
+Creating scope :verification_succeeded. Overwriting existing method Ci::JobArtifact.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Ci::JobArtifact.verification_failed.
+Creating scope :with_files_stored_locally. Overwriting existing method Ci::JobArtifact.with_files_stored_locally.
+Creating scope :with_files_stored_remotely. Overwriting existing method Ci::JobArtifact.with_files_stored_remotely.
+Creating scope :checksummed. Overwriting existing method Ci::JobArtifact.checksummed.
+Creating scope :not_checksummed. Overwriting existing method Ci::JobArtifact.not_checksummed.
+Creating scope :available_verifiables. Overwriting existing method Ci::JobArtifact.available_verifiables.
+Creating scope :in_pipelines. Overwriting existing method Ci::Build.in_pipelines.
+Creating scope :without_statuses. Overwriting existing method CommitStatus.without_statuses.
+Creating scope :verification_succeeded. Overwriting existing method Ci::JobArtifact.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Ci::JobArtifact.verification_failed.
+Creating scope :with_files_stored_locally. Overwriting existing method Ci::JobArtifact.with_files_stored_locally.
+Creating scope :with_files_stored_remotely. Overwriting existing method Ci::JobArtifact.with_files_stored_remotely.
+Creating scope :checksummed. Overwriting existing method Ci::JobArtifact.checksummed.
+Creating scope :not_checksummed. Overwriting existing method Ci::JobArtifact.not_checksummed.
+Creating scope :available_verifiables. Overwriting existing method Ci::JobArtifact.available_verifiables.
+Creating scope :in_pipelines. Overwriting existing method Ci::Build.in_pipelines.
+Creating scope :without_statuses. Overwriting existing method CommitStatus.without_statuses.
+Creating scope :verification_succeeded. Overwriting existing method Ci::JobArtifact.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Ci::JobArtifact.verification_failed.
+Creating scope :with_files_stored_locally. Overwriting existing method Ci::JobArtifact.with_files_stored_locally.
+Creating scope :with_files_stored_remotely. Overwriting existing method Ci::JobArtifact.with_files_stored_remotely.
+Creating scope :checksummed. Overwriting existing method Ci::JobArtifact.checksummed.
+Creating scope :not_checksummed. Overwriting existing method Ci::JobArtifact.not_checksummed.
+Creating scope :available_verifiables. Overwriting existing method Ci::JobArtifact.available_verifiables.
+Creating scope :in_pipelines. Overwriting existing method Ci::Build.in_pipelines.
+Creating scope :without_statuses. Overwriting existing method Ci::Pipeline.without_statuses.
+Creating scope :without_statuses. Overwriting existing method Ci::Pipeline.without_statuses.
+Creating scope :failed. Overwriting existing method Geo::JobArtifactRegistry.failed.
+Creating scope :needs_sync_again. Overwriting existing method Geo::JobArtifactRegistry.needs_sync_again.
+Creating scope :never_attempted_sync. Overwriting existing method Geo::JobArtifactRegistry.never_attempted_sync.
+Creating scope :retry_due. Overwriting existing method Geo::JobArtifactRegistry.retry_due.
+Creating scope :synced. Overwriting existing method Geo::JobArtifactRegistry.synced.
+Creating scope :verification_succeeded. Overwriting existing method LfsObject.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method LfsObject.verification_failed.
+Creating scope :checksummed. Overwriting existing method LfsObject.checksummed.
+Creating scope :not_checksummed. Overwriting existing method LfsObject.not_checksummed.
+Creating scope :available_verifiables. Overwriting existing method LfsObject.available_verifiables.
+Creating scope :verification_succeeded. Overwriting existing method MergeRequestDiff.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method MergeRequestDiff.verification_failed.
+Creating scope :available_replicables. Overwriting existing method MergeRequestDiff.available_replicables.
+Creating scope :available_verifiables. Overwriting existing method MergeRequestDiff.available_verifiables.
+Creating scope :checksummed. Overwriting existing method MergeRequestDiff.checksummed.
+Creating scope :not_checksummed. Overwriting existing method MergeRequestDiff.not_checksummed.
+Creating scope :verification_succeeded. Overwriting existing method Packages::PackageFile.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Packages::PackageFile.verification_failed.
+Creating scope :verification_succeeded. Overwriting existing method Ci::PipelineArtifact.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Ci::PipelineArtifact.verification_failed.
+Creating scope :verification_succeeded. Overwriting existing method Terraform::StateVersion.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Terraform::StateVersion.verification_failed.
+Creating scope :verification_succeeded. Overwriting existing method Upload.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Upload.verification_failed.
+Creating scope :checksummed. Overwriting existing method Upload.checksummed.
+Creating scope :not_checksummed. Overwriting existing method Upload.not_checksummed.
+Creating scope :available_verifiables. Overwriting existing method Upload.available_verifiables.
+Creating scope :verification_succeeded. Overwriting existing method SnippetRepository.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method SnippetRepository.verification_failed.
+Creating scope :verification_succeeded. Overwriting existing method PagesDeployment.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method PagesDeployment.verification_failed.
+Creating scope :checksummed. Overwriting existing method PagesDeployment.checksummed.
+Creating scope :not_checksummed. Overwriting existing method PagesDeployment.not_checksummed.
+Creating scope :available_verifiables. Overwriting existing method PagesDeployment.available_verifiables.
+Creating scope :verification_succeeded. Overwriting existing method Ci::SecureFile.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Ci::SecureFile.verification_failed.
+Creating scope :checksummed. Overwriting existing method Ci::SecureFile.checksummed.
+Creating scope :not_checksummed. Overwriting existing method Ci::SecureFile.not_checksummed.
+Creating scope :available_verifiables. Overwriting existing method Ci::SecureFile.available_verifiables.
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :opened. Overwriting existing method Epic.opened.
+Creating scope :closed. Overwriting existing method Epic.closed.
+Creating scope :opened. Overwriting existing method Epic.opened.
+Creating scope :closed. Overwriting existing method Epic.closed.
+Creating scope :with_api_entity_associations. Overwriting existing method Epic.with_api_entity_associations.
+Creating scope :with_api_entity_associations. Overwriting existing method Epic.with_api_entity_associations.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :order_created_desc. Overwriting existing method Packages::Package.order_created_desc.
+Creating scope :order_name_desc. Overwriting existing method Packages::Package.order_name_desc.
+Creating scope :order_created_desc. Overwriting existing method Packages::Package.order_created_desc.
+Creating scope :order_name_desc. Overwriting existing method Packages::Package.order_name_desc.
+Creating scope :closed. Overwriting existing method Iteration.closed.
+Creating scope :within_timeframe. Overwriting existing method Iteration.within_timeframe.
+Creating scope :closed. Overwriting existing method Iteration.closed.
+Creating scope :within_timeframe. Overwriting existing method Iteration.within_timeframe.
+Creating scope :without_statuses. Overwriting existing method Ci::Pipeline.without_statuses.
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :opened. Overwriting existing method Epic.opened.
+Creating scope :closed. Overwriting existing method Epic.closed.
+Creating scope :with_api_entity_associations. Overwriting existing method Epic.with_api_entity_associations.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :order_created_desc. Overwriting existing method Packages::Package.order_created_desc.
+Creating scope :order_name_desc. Overwriting existing method Packages::Package.order_name_desc.
+Creating scope :closed. Overwriting existing method Iteration.closed.
+Creating scope :within_timeframe. Overwriting existing method Iteration.within_timeframe.
+Creating scope :with_warnings. Overwriting existing method Security::Scan.with_warnings.
+Creating scope :open. Overwriting existing method AlertManagement::Alert.open.
+Creating scope :open. Overwriting existing method IncidentManagement::IssuableEscalationStatus.open.
+Creating scope :with_associations. Overwriting existing method Board.with_associations.
+Creating scope :not_available. Overwriting existing method Ci::RunnerVersion.not_available.
+Enum element 'not_available' in Ci::RunnerVersion uses the prefix 'not_'. This has caused a conflict with auto generated negative scopes. Avoid using enum elements starting with 'not' where the positive form is also an element.
+Creating scope :not_available. Overwriting existing method Ci::RunnerVersion.not_available.
+Creating scope :movable. Overwriting existing method Boards::EpicList.movable.
+Creating scope :order_name_asc. Overwriting existing method Label.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Label.order_name_desc.
+Creating scope :open. Overwriting existing method ExternalPullRequest.open.
+Creating scope :with_warnings. Overwriting existing method Security::Scan.with_warnings.
+Creating scope :not_expired. Overwriting existing method Member.not_expired.
+Creating scope :order_name_asc. Overwriting existing method Member.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Member.order_name_desc.
+Creating scope :with_logging_info. Overwriting existing method PagesDomain.with_logging_info.
+Creating scope :open. Overwriting existing method AlertManagement::Alert.open.
+Creating scope :system. Overwriting existing method PrometheusMetric.system.
+Creating scope :open. Overwriting existing method IncidentManagement::IssuableEscalationStatus.open.
+Creating scope :with_associations. Overwriting existing method Board.with_associations.
+Creating scope :with_user. Overwriting existing method GroupMember.with_user.
+Creating scope :reporters. Overwriting existing method GroupMember.reporters.
+Creating scope :guests. Overwriting existing method GroupMember.guests.
+Creating scope :not_available. Overwriting existing method Ci::RunnerVersion.not_available.
+Enum element 'not_available' in Ci::RunnerVersion uses the prefix 'not_'. This has caused a conflict with auto generated negative scopes. Avoid using enum elements starting with 'not' where the positive form is also an element.
+Creating scope :not_available. Overwriting existing method Ci::RunnerVersion.not_available.
+Creating scope :movable. Overwriting existing method Boards::EpicList.movable.
+Creating scope :extended. Overwriting existing method GitlabSubscription.extended.
+Creating scope :verification_succeeded. Overwriting existing method Packages::PackageFile.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Packages::PackageFile.verification_failed.
+Creating scope :order_name_asc. Overwriting existing method Label.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Label.order_name_desc.
+Creating scope :verification_succeeded. Overwriting existing method Upload.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Upload.verification_failed.
+Creating scope :checksummed. Overwriting existing method Upload.checksummed.
+Creating scope :not_checksummed. Overwriting existing method Upload.not_checksummed.
+Creating scope :available_verifiables. Overwriting existing method Upload.available_verifiables.
+Creating scope :open. Overwriting existing method ExternalPullRequest.open.
+Creating scope :verification_succeeded. Overwriting existing method LfsObject.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method LfsObject.verification_failed.
+Creating scope :checksummed. Overwriting existing method LfsObject.checksummed.
+Creating scope :not_checksummed. Overwriting existing method LfsObject.not_checksummed.
+Creating scope :available_verifiables. Overwriting existing method LfsObject.available_verifiables.
+Creating scope :not_expired. Overwriting existing method Member.not_expired.
+Creating scope :without_statuses. Overwriting existing method Ci::Stage.without_statuses.
+Creating scope :created. Overwriting existing method Ci::Stage.created.
+Creating scope :order_name_asc. Overwriting existing method Member.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Member.order_name_desc.
+Creating scope :pending. Overwriting existing method Ci::Stage.pending.
+Creating scope :running. Overwriting existing method Ci::Stage.running.
+Creating scope :success. Overwriting existing method Ci::Stage.success.
+Creating scope :failed. Overwriting existing method Ci::Stage.failed.
+Creating scope :canceled. Overwriting existing method Ci::Stage.canceled.
+Creating scope :skipped. Overwriting existing method Ci::Stage.skipped.
+Creating scope :manual. Overwriting existing method Ci::Stage.manual.
+Creating scope :scheduled. Overwriting existing method Ci::Stage.scheduled.
+Creating scope :preparing. Overwriting existing method Ci::Stage.preparing.
+Creating scope :waiting_for_resource. Overwriting existing method Ci::Stage.waiting_for_resource.
+Creating scope :verification_succeeded. Overwriting existing method MergeRequestDiff.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method MergeRequestDiff.verification_failed.
+Creating scope :available_replicables. Overwriting existing method MergeRequestDiff.available_replicables.
+Creating scope :available_verifiables. Overwriting existing method MergeRequestDiff.available_verifiables.
+Creating scope :checksummed. Overwriting existing method MergeRequestDiff.checksummed.
+Creating scope :not_checksummed. Overwriting existing method MergeRequestDiff.not_checksummed.
+Creating scope :database. Overwriting existing method Ci::BuildTraceChunk.database.
+Creating scope :verification_succeeded. Overwriting existing method PagesDeployment.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method PagesDeployment.verification_failed.
+Creating scope :checksummed. Overwriting existing method PagesDeployment.checksummed.
+Creating scope :not_checksummed. Overwriting existing method PagesDeployment.not_checksummed.
+Creating scope :available_verifiables. Overwriting existing method PagesDeployment.available_verifiables.
+Creating scope :with_logging_info. Overwriting existing method PagesDomain.with_logging_info.
+Creating scope :system. Overwriting existing method PrometheusMetric.system.
+Creating scope :verification_succeeded. Overwriting existing method SnippetRepository.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method SnippetRepository.verification_failed.
+Creating scope :with_user. Overwriting existing method GroupMember.with_user.
+Creating scope :reporters. Overwriting existing method GroupMember.reporters.
+Creating scope :guests. Overwriting existing method GroupMember.guests.
+Creating scope :extended. Overwriting existing method GitlabSubscription.extended.
+Creating scope :without_statuses. Overwriting existing method Ci::Stage.without_statuses.
+Creating scope :created. Overwriting existing method Ci::Stage.created.
+Creating scope :pending. Overwriting existing method Ci::Stage.pending.
+Creating scope :running. Overwriting existing method Ci::Stage.running.
+Creating scope :success. Overwriting existing method Ci::Stage.success.
+Creating scope :failed. Overwriting existing method Ci::Stage.failed.
+Creating scope :canceled. Overwriting existing method Ci::Stage.canceled.
+Creating scope :skipped. Overwriting existing method Ci::Stage.skipped.
+Creating scope :manual. Overwriting existing method Ci::Stage.manual.
+Creating scope :scheduled. Overwriting existing method Ci::Stage.scheduled.
+Creating scope :preparing. Overwriting existing method Ci::Stage.preparing.
+Creating scope :waiting_for_resource. Overwriting existing method Ci::Stage.waiting_for_resource.
+Creating scope :database. Overwriting existing method Ci::BuildTraceChunk.database.
+Creating scope :verification_succeeded. Overwriting existing method Ci::PipelineArtifact.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Ci::PipelineArtifact.verification_failed.
+Creating scope :verification_succeeded. Overwriting existing method Ci::SecureFile.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Ci::SecureFile.verification_failed.
+Creating scope :checksummed. Overwriting existing method Ci::SecureFile.checksummed.
+Creating scope :not_checksummed. Overwriting existing method Ci::SecureFile.not_checksummed.
+Creating scope :available_verifiables. Overwriting existing method Ci::SecureFile.available_verifiables.
+Creating scope :verification_succeeded. Overwriting existing method Terraform::StateVersion.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Terraform::StateVersion.verification_failed.
+Creating scope :order_created_desc. Overwriting existing method RequirementsManagement::Requirement.order_created_desc.
+Creating scope :order_created_asc. Overwriting existing method RequirementsManagement::Requirement.order_created_asc.
+Creating scope :order_updated_desc. Overwriting existing method RequirementsManagement::Requirement.order_updated_desc.
+Creating scope :order_updated_asc. Overwriting existing method RequirementsManagement::Requirement.order_updated_asc.
+Creating scope :runnable_schedules. Overwriting existing method Security::OrchestrationPolicyRuleSchedule.runnable_schedules.
+Creating scope :failed. Overwriting existing method Geo::JobArtifactRegistry.failed.
+Creating scope :needs_sync_again. Overwriting existing method Geo::JobArtifactRegistry.needs_sync_again.
+Creating scope :never_attempted_sync. Overwriting existing method Geo::JobArtifactRegistry.never_attempted_sync.
+Creating scope :retry_due. Overwriting existing method Geo::JobArtifactRegistry.retry_due.
+Creating scope :synced. Overwriting existing method Geo::JobArtifactRegistry.synced.
+Creating scope :order_created_desc. Overwriting existing method RequirementsManagement::Requirement.order_created_desc.
+Creating scope :order_created_asc. Overwriting existing method RequirementsManagement::Requirement.order_created_asc.
+Creating scope :order_updated_desc. Overwriting existing method RequirementsManagement::Requirement.order_updated_desc.
+Creating scope :order_updated_asc. Overwriting existing method RequirementsManagement::Requirement.order_updated_asc.
+Creating scope :runnable_schedules. Overwriting existing method Security::OrchestrationPolicyRuleSchedule.runnable_schedules.
+Creating scope :regular. Overwriting existing method EE::Gitlab::BackgroundMigration::MigrateApproverToApprovalRules::ApprovalMergeRequestRule.regular.
+Creating scope :code_owner. Overwriting existing method EE::Gitlab::BackgroundMigration::MigrateApproverToApprovalRules::ApprovalMergeRequestRule.code_owner.
+Creating scope :regular. Overwriting existing method EE::Gitlab::BackgroundMigration::MigrateApproverToApprovalRules::ApprovalMergeRequestRule.regular.
+Creating scope :code_owner. Overwriting existing method EE::Gitlab::BackgroundMigration::MigrateApproverToApprovalRules::ApprovalMergeRequestRule.code_owner.
+Creating scope :system. Overwriting existing method Gitlab::DatabaseImporters::CommonMetrics::PrometheusMetric.system.
+Creating scope :system. Overwriting existing method Gitlab::DatabaseImporters::CommonMetrics::PrometheusMetric.system.
+Creating scope :group_view_details. Overwriting existing method User.group_view_details.
+Raven 3.1.2 configured not to capture errors: DSN not set
+Creating scope :without_statuses. Overwriting existing method CommitStatus.without_statuses.
+Creating scope :verification_succeeded. Overwriting existing method Ci::JobArtifact.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Ci::JobArtifact.verification_failed.
+Creating scope :with_files_stored_locally. Overwriting existing method Ci::JobArtifact.with_files_stored_locally.
+Creating scope :with_files_stored_remotely. Overwriting existing method Ci::JobArtifact.with_files_stored_remotely.
+Creating scope :checksummed. Overwriting existing method Ci::JobArtifact.checksummed.
+Creating scope :not_checksummed. Overwriting existing method Ci::JobArtifact.not_checksummed.
+Creating scope :available_verifiables. Overwriting existing method Ci::JobArtifact.available_verifiables.
+Creating scope :in_pipelines. Overwriting existing method Ci::Build.in_pipelines.
+Creating scope :without_statuses. Overwriting existing method Ci::Pipeline.without_statuses.
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :opened. Overwriting existing method Epic.opened.
+Creating scope :closed. Overwriting existing method Epic.closed.
+Creating scope :with_api_entity_associations. Overwriting existing method Epic.with_api_entity_associations.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :order_created_desc. Overwriting existing method Packages::Package.order_created_desc.
+Creating scope :order_name_desc. Overwriting existing method Packages::Package.order_name_desc.
+Creating scope :closed. Overwriting existing method Iteration.closed.
+Creating scope :within_timeframe. Overwriting existing method Iteration.within_timeframe.
+Creating scope :verification_succeeded. Overwriting existing method Upload.verification_succeeded.
+Creating scope :verification_failed. Overwriting existing method Upload.verification_failed.
+Creating scope :checksummed. Overwriting existing method Upload.checksummed.
+Creating scope :not_checksummed. Overwriting existing method Upload.not_checksummed.
+Creating scope :available_verifiables. Overwriting existing method Upload.available_verifiables.

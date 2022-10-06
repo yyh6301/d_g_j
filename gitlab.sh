@@ -9,6 +9,7 @@ sudo docker run --detach \
   --volume $GITLAB_HOME/config:/etc/gitlab \
   --volume $GITLAB_HOME/logs:/var/log/gitlab \
   --volume $GITLAB_HOME/data:/var/opt/gitlab \
+  --network qnear \
   --shm-size 256m \
   gitlab/gitlab-ee:latest
 
@@ -23,3 +24,8 @@ sudo docker run --detach \
 
 #   --volume /home/test/gitLabs/config:/ect/gitlab:z  \
 #   --volume /home/test/gitLabs/log:/var/log/gitlab:Z \
+
+
+#容器内通信，直接端口通信，本机才要是19080/19022
+#git clone ssh://git@gitlab/gitlab-instance-31219f4b/test.git
+#git clone http://gitlab:80/gitlab-instance-31219f4b/test.git

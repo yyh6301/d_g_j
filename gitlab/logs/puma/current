@@ -1,14 +1,11 @@
-2022-09-30_15:04:42.60941 {"timestamp":"2022-09-30T15:04:42.609Z","pid":336,"message":"Puma starting in cluster mode..."}
-2022-09-30_15:04:42.60953 {"timestamp":"2022-09-30T15:04:42.609Z","pid":336,"message":"* Puma version: 5.6.5 (ruby 2.7.5-p203) (\"Birdie's Version\")"}
-2022-09-30_15:04:42.60954 {"timestamp":"2022-09-30T15:04:42.609Z","pid":336,"message":"*  Min threads: 4"}
-2022-09-30_15:04:42.60954 {"timestamp":"2022-09-30T15:04:42.609Z","pid":336,"message":"*  Max threads: 4"}
-2022-09-30_15:04:42.60955 {"timestamp":"2022-09-30T15:04:42.609Z","pid":336,"message":"*  Environment: production"}
-2022-09-30_15:04:42.60955 {"timestamp":"2022-09-30T15:04:42.609Z","pid":336,"message":"*   Master PID: 336"}
-2022-09-30_15:04:42.60955 {"timestamp":"2022-09-30T15:04:42.609Z","pid":336,"message":"*      Workers: 8"}
-2022-09-30_15:04:42.60968 {"timestamp":"2022-09-30T15:04:42.609Z","pid":336,"message":"*     Restarts: (✔) hot (✖) phased"}
-2022-09-30_15:04:42.60978 {"timestamp":"2022-09-30T15:04:42.609Z","pid":336,"message":"* Preloading application"}
-2022-09-30_15:05:41.98633 {"timestamp":"2022-09-30T15:05:41.986Z","pid":336,"message":"* Listening on unix:///var/opt/gitlab/gitlab-rails/sockets/gitlab.socket"}
-2022-09-30_15:05:41.98650 {"timestamp":"2022-09-30T15:05:41.986Z","pid":336,"message":"* Listening on http://127.0.0.1:8080"}
-2022-09-30_15:05:41.98652 {"timestamp":"2022-09-30T15:05:41.986Z","pid":336,"message":"! WARNING: Detected 1 Thread(s) started in app boot:"}
-2022-09-30_15:05:41.98665 {"timestamp":"2022-09-30T15:05:41.986Z","pid":336,"message":"! #\u003cThread:0x00007fe29ff4cac0 /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-timeout-0.6.0/lib/rack/timeout/support/scheduler.rb:73 sleep\u003e - /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-timeout-0.6.0/lib/rack/timeout/support/scheduler.rb:91:in `sleep'"}
-2022-09-30_15:05:41.98675 {"timestamp":"2022-09-30T15:05:41.986Z","pid":336,"message":"Use Ctrl-C to stop"}
+2022-10-01_14:36:06.26500 {"timestamp":"2022-10-01T14:36:06.264Z","pid":338,"message":"Puma starting in cluster mode..."}
+2022-10-01_14:36:06.26515 {"timestamp":"2022-10-01T14:36:06.264Z","pid":338,"message":"* Puma version: 5.6.5 (ruby 2.7.5-p203) (\"Birdie's Version\")"}
+2022-10-01_14:36:06.26515 {"timestamp":"2022-10-01T14:36:06.265Z","pid":338,"message":"*  Min threads: 4"}
+2022-10-01_14:36:06.26516 {"timestamp":"2022-10-01T14:36:06.265Z","pid":338,"message":"*  Max threads: 4"}
+2022-10-01_14:36:06.26516 {"timestamp":"2022-10-01T14:36:06.265Z","pid":338,"message":"*  Environment: production"}
+2022-10-01_14:36:06.26521 {"timestamp":"2022-10-01T14:36:06.265Z","pid":338,"message":"*   Master PID: 338"}
+2022-10-01_14:36:06.26522 {"timestamp":"2022-10-01T14:36:06.265Z","pid":338,"message":"*      Workers: 8"}
+2022-10-01_14:36:06.26522 {"timestamp":"2022-10-01T14:36:06.265Z","pid":338,"message":"*     Restarts: (✔) hot (✖) phased"}
+2022-10-01_14:36:06.26522 {"timestamp":"2022-10-01T14:36:06.265Z","pid":338,"message":"* Preloading application"}
+2022-10-01_14:37:35.34236 Received TERM from runit, sending to process group (-PID)
+2022-10-01_14:37:35.34478 {"timestamp":"2022-10-01T14:37:35.344Z","pid":338,"message":"! Unable to load application: SignalException: SIGTERM"}
