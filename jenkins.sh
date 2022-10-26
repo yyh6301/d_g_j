@@ -13,6 +13,6 @@ docker run \
   --env="JENKINS_OPTS=--prefix=/jenkins" \
   -v deploy:/var/deploy:z \
   --network qnear \
-  y:d_g_j
+  k:d_g_j
 
 #   --restart=always \

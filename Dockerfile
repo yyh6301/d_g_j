@@ -50,7 +50,7 @@ RUN echo "jenkins ALL=NOPASSWD: ALL" >> /etc/sudoers
 RUN cp /usr/share/zoneinfo/Asia/Chongqing /etc/localtime
 RUN echo "Asia/Chongqing" > /etc/timezone
 
-ARG DOCKER_VERSION="20.10.13"
+ARG DOCKER_VERSION="20.10.20"
 #ENV DOWNLOAD_URL="https://download.docker.com/linux/static/stable/x86_64/docker-$DOCKER_VERSION.tgz"
 # *****************************
 # install docker client
