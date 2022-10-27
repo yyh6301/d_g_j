@@ -9,7 +9,6 @@ docker run \
   -p 50000:50000 \
   -v jenkins_home:/var/jenkins_home:z \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  -v $(which docker):/user/bin/docker \
   --env="JENKINS_OPTS=--prefix=/jenkins" \
   -v deploy:/var/deploy:z \
   --network qnear \

@@ -1204,3 +1204,17 @@
 2022/10/25 11:31:37 [notice] 29#29: exiting
 2022/10/25 11:31:37 [notice] 29#29: exit
 2022/10/25 11:31:37 [notice] 1#1: signal 14 (SIGALRM) received
+2022/10/27 22:35:56 [notice] 1#1: using the "epoll" event method
+2022/10/27 22:35:56 [notice] 1#1: nginx/1.23.2
+2022/10/27 22:35:56 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/10/27 22:35:56 [notice] 1#1: OS: Linux 5.10.102.1-microsoft-standard-WSL2
+2022/10/27 22:35:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/27 22:35:56 [notice] 1#1: start worker processes
+2022/10/27 22:35:56 [notice] 1#1: start worker process 22
+2022/10/27 22:35:56 [notice] 1#1: start worker process 23
+2022/10/27 22:35:56 [notice] 1#1: start worker process 24
+2022/10/27 22:35:56 [notice] 1#1: start worker process 25
+2022/10/27 22:35:56 [notice] 1#1: start worker process 26
+2022/10/27 22:35:56 [notice] 1#1: start worker process 27
+2022/10/27 22:35:56 [notice] 1#1: start worker process 28
+2022/10/27 22:35:56 [notice] 1#1: start worker process 29
